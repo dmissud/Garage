@@ -1,10 +1,27 @@
 package org.dbs.appli;
 
 import org.dbs.garage.Garage;
+import org.dbs.garage.Marque;
 import org.dbs.garage.Vehicule;
 
 public class Main {
+
+    public static final String SUPER_TUTURE = "Super Tuture";
+    public static final String PUTEAU = "Puteau";
+
     public static void main(String[] args) {
+
+        Garage monGarage = new Garage(SUPER_TUTURE, PUTEAU);
+        monGarage.enregistreVehicule(new Vehicule("ID_0000001", Marque.Dacia));
+        monGarage.enregistreVehicule(new Vehicule("ID_0000002", Marque.Dacia));
+        monGarage.enregistreVehicule(new Vehicule("ID_0000003", Marque.Peugeot));
+        monGarage.enregistreVehicule(new Vehicule("ID_0000004", Marque.Renault));
+        monGarage.enregistreVehicule(new Vehicule("ID_0000005", Marque.Toyota));
+        monGarage.enregistreVehicule(new Vehicule("ID_0000006", Marque.Toyota));
+        monGarage.enregistreVehicule(new Vehicule("ID_0000007", Marque.Citroen));
+
+
+        System.out.println(monGarage);
 
 //        Garage garage = new Garage();
 //        System.out.println(garage);

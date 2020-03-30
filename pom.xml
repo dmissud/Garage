@@ -16,7 +16,7 @@
     <!-- ===== Informations générales ===== -->
     <name>Mes Garages</name>
     <description>
-        Exercice de gestion de garage.
+        Exercice de gestion de Garage.
     </description>
     <url>http://www.exemple.org/mon-appli</url>
 
@@ -35,7 +35,9 @@
     </licenses>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <junit.jupiter.version>5.6.1</junit.jupiter.version>
     </properties>
 
 </project>

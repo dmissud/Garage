@@ -14,8 +14,7 @@ public class Garage {
         this.vehicules = new ArrayList<>();
     }
 
-    void enregistreVehicule(Vehicule vehicule) {
-
+    public void enregistreVehicule(Vehicule vehicule) {
         this.vehicules.add(vehicule);
     }
 }
