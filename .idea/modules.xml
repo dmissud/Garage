@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Garage.iml" filepath="$PROJECT_DIR$/Garage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/garage-business/garage-business.iml" filepath="$PROJECT_DIR$/garage-business/garage-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/garage-line/garage-line.iml" filepath="$PROJECT_DIR$/garage-line/garage-line.iml" />
+      <module fileurl="file://$PROJECT_DIR$/garage-memory/garage-memory.iml" filepath="$PROJECT_DIR$/garage-memory/garage-memory.iml" />
+    </modules>
+  </component>
+</project>

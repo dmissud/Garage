@@ -8,7 +8,7 @@ public abstract class Option {
 
     abstract String getDescription();
 
-    boolean isCompatible(Vehicule vehicule, Option option) {
+    boolean isCompatible(Vehicle vehicle, Option option) {
         return true;
     }
 }
