@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="garage-web:war">
+    <output-path>$PROJECT_DIR$/garage-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>garage-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="garage-web.war">
+      <element id="artifact" artifact-name="garage-web:war exploded" />
+    </root>
+  </artifact>
+</component>

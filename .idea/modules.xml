@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/garage-business/garage-business.iml" filepath="$PROJECT_DIR$/garage-business/garage-business.iml" />
       <module fileurl="file://$PROJECT_DIR$/garage-line/garage-line.iml" filepath="$PROJECT_DIR$/garage-line/garage-line.iml" />
       <module fileurl="file://$PROJECT_DIR$/garage-memory/garage-memory.iml" filepath="$PROJECT_DIR$/garage-memory/garage-memory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/garage-web/garage-web.iml" filepath="$PROJECT_DIR$/garage-web/garage-web.iml" />
     </modules>
   </component>
 </project>

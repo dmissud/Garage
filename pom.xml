@@ -10,7 +10,8 @@
     <modules>
         <module>garage-business</module>
         <module>garage-line</module>
-        <module>Garage-memory</module>
+        <module>garage-memory</module>
+        <module>garage-web</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -87,5 +88,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
 </project>
