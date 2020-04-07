@@ -1,7 +1,12 @@
 package org.dbs.garage;
 
+import org.dbs.garage.application.Exception_Vehicule_Reference;
+import org.dbs.garage.domain.Garage;
+import org.dbs.garage.domain.Marque;
+import org.dbs.garage.domain.Vehicle;
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class GarageTest {
@@ -16,15 +21,17 @@ class GarageTest {
         } catch (Exception_Vehicule_Reference exception_vehicule_reference) {
             exceptionOK = true;
         }
-        assertTrue(exceptionOK);
+        assertThat(exceptionOK).isTrue();
     }
 
     @Test
     void testEquals() {
+//        fail("Not yet Implemented");
     }
 
     @Test
     void compareTo() {
+//        fail("Not yet Implemented");
     }
 }
 

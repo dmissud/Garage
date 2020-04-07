@@ -1,6 +1,8 @@
 package org.dbs.appli;
 
-import org.dbs.garage.*;
+import org.dbs.garage.application.IRepositoryOfGarage;
+import org.dbs.garage.application.UnknowGarage;
+import org.dbs.garage.domain.Garage;
 import org.dbs.garagememory.RepositoryOfGarageMemory;
 
 public class Main {

@@ -1,4 +1,6 @@
-package org.dbs.garage;
+package org.dbs.garage.domain;
+
+import org.dbs.garage.application.Exception_Vehicule_Reference;
 
 import java.util.Map;
 import java.util.Objects;

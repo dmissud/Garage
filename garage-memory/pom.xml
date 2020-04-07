@@ -11,7 +11,13 @@
 
     <artifactId>garage-memory</artifactId>
 
-    <name>Garage-memory</name>
+    <name>Garage persitant memory</name>
+
+    <properties>
+        <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}
+        </sonar.coverage.jacoco.xmlReportPaths>
+    </properties>
+
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 

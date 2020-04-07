@@ -1,4 +1,4 @@
-package org.dbs.garage;
+package org.dbs.garage.domain;
 
 public enum Marque {
     Peugeot,

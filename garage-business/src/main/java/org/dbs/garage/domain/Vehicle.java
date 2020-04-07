@@ -1,7 +1,6 @@
-package org.dbs.garage;
+package org.dbs.garage.domain;
 
-import java.util.ArrayList;
-import java.util.List;
+import org.dbs.garage.domain.Marque;
 
 public class Vehicle {
     private String idChassis;

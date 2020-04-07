@@ -10,6 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>garage-line</artifactId>
+
+    <name>Garage Line Cmd</name>
+
+    <properties>
+        <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}
+        </sonar.coverage.jacoco.xmlReportPaths>
+    </properties>
+
+
     <dependencies>
         <dependency>
             <groupId>org.dbs</groupId>
