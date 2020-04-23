@@ -65,4 +65,8 @@ public class Garage implements Comparable<Garage> {
     public String getLocation() {
         return location;
     }
+
+    public int giveNumberOfVehicule() {
+        return this.vehicules.size();
+    }
 }
