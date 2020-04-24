@@ -45,18 +45,21 @@ class ConsultGarageStockImplTest {
         lstGarage.add("N2");
         lstGarage.add("N3");
         when(repositoryOfGarage.retrieveNameOfAllGarage()).thenReturn(lstGarage);
-        // Ici le Problème. signature de l'interface 
+        // Ici le Problème. signature de l'interface je susi obligé de mettre le try / catch est-normal ?
         // Garage retrieveGarageByName(String garageName) throws UnknowGarage;
-        when(repositoryOfGarage.retrieveGarageByName("N1")).thenReturn(garageN1);
-        
+        try {
+            when(repositoryOfGarage.retrieveGarageByName("N1")).thenReturn(garageN1);
+            when(repositoryOfGarage.retrieveGarageByName("N2")).thenReturn(garageN2);
+            when(repositoryOfGarage.retrieveGarageByName("N3")).thenReturn(garageN3);
+        } catch (UnknowGarage unknowGarage) {
+            unknowGarage.printStackTrace();
+        }
+
         // ??? Cette façon de faire me semble un peu lourde
-        when(garageN1.getName()).thenReturn("N1");
         when(garageN1.getLocation()).thenReturn("Loc1");
         when(garageN1.giveNumberOfVehicule()).thenReturn(5);
-        when(garageN2.getName()).thenReturn("N2");
         when(garageN2.getLocation()).thenReturn("Loc1");
         when(garageN2.giveNumberOfVehicule()).thenReturn(9);
-        when(garageN3.getName()).thenReturn("N3");
         when(garageN3.getLocation()).thenReturn("Loc2");
         when(garageN3.giveNumberOfVehicule()).thenReturn(8);
 
@@ -65,7 +68,7 @@ class ConsultGarageStockImplTest {
 
         // THEN
         Assertions.assertThat(resultsDescriptionGarage.size()).isEqualTo(3);
-        
+
         GarageDescription descGarage = resultsDescriptionGarage.get(0);
         Assertions.assertThat(descGarage.getName()).isEqualTo("N1");
         Assertions.assertThat(descGarage.getLocation()).isEqualTo("Loc1");
