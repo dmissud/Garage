@@ -1,7 +1,7 @@
 
-M	java:S106"9Replace this use of System.out or System.err by a logger.(Åˆ9
 9
 java:S1116"Remove this empty statement.(Ÿœ¦€8ÌÈé“š.
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Åˆ9
 Z
 java:S1444
 "8Make this "public static consultGarageStock" field final(œÌ«ÿÿÿÿÿ8ºÄğ’š.

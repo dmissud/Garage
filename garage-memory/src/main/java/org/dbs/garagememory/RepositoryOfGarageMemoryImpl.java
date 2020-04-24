@@ -16,7 +16,7 @@ public class RepositoryOfGarageMemoryImpl implements IRepositoryOfGarage {
     private static RepositoryOfGarageMemoryImpl repositoryOfGarageMemory = null;
     private final MemoryRepositoryBuilder memoryRepositoryBuilder = new MemoryRepositoryBuilder();
 
-    private Map<String, Garage> lstOfGarage;
+    private final Map<String, Garage> lstOfGarage;
 
     private RepositoryOfGarageMemoryImpl() {
         this.lstOfGarage = new TreeMap<>();
