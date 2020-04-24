@@ -68,3 +68,13 @@ I.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml,5\d\
 Mgarage-memory/src/main/java/org/dbs/garagememory/MemoryRepositoryBuilder.java,0\e\0e24ff4a65c228e71dbdd192a4fd5a12adcec50f
 ˆ
 Xgarage-business/src/test/java/org/dbs/garage/application/ConsultGarageStockImplTest.java,d\d\dd5cb8ca580129cbf28f5b635088d340cffab560
+j
+:.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_5.xml,0\b\0b3dc4b535846675d63be827b5030de027cc4a01
+p
+@.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml,2\3\2377d38a8835427c3ea5c5ab91b3aa23ce9d0b04
+i
+9.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml,5\0\5003114be26c9a87331a43494d081e773f2efb62
+r
+B.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml,e\e\ee4f73f641e0bdf3a5e81881fe73139519e12a75
+f
+6.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml,7\5\75a5efe07bfd556010ee7fac1ea79d75c68724a1
