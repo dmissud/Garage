@@ -1,9 +1,6 @@
 package org.dbs.garage.domain;
 
-import org.dbs.garage.application.Exception_Vehicule_Reference;
-import org.dbs.garage.domain.Garage;
-import org.dbs.garage.domain.Marque;
-import org.dbs.garage.domain.Vehicle;
+import org.dbs.garage.application.ExceptionVehicleReference;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -21,14 +18,14 @@ class GarageTest {
     static void initGarageForTest() {
         GarageTest.garage = new Garage("Nom1", "location1");
         try {
-            GarageTest.garage.registerVehicle(new Vehicle("ID_1000", Marque.Dacia));
-            GarageTest.garage.registerVehicle(new Vehicle("ID_1100", Marque.Dacia));
-            GarageTest.garage.registerVehicle(new Vehicle("ID_1200", Marque.Peugeot));
-            GarageTest.garage.registerVehicle(new Vehicle("ID_1300", Marque.Renault));
-            GarageTest.garage.registerVehicle(new Vehicle("ID_1400", Marque.Toyota));
-            GarageTest.garage.registerVehicle(new Vehicle("ID_1500", Marque.Toyota));
-            GarageTest.garage.registerVehicle(new Vehicle("ID_1600", Marque.Citroen));
-        } catch (Exception_Vehicule_Reference exception_vehicule_reference) {
+            GarageTest.garage.registerVehicle(new Vehicle("ID_1000", Marque.DACIA));
+            GarageTest.garage.registerVehicle(new Vehicle("ID_1100", Marque.DACIA));
+            GarageTest.garage.registerVehicle(new Vehicle("ID_1200", Marque.PEUGEOT));
+            GarageTest.garage.registerVehicle(new Vehicle("ID_1300", Marque.RENAULT));
+            GarageTest.garage.registerVehicle(new Vehicle("ID_1400", Marque.TOYOTA));
+            GarageTest.garage.registerVehicle(new Vehicle("ID_1500", Marque.TOYOTA));
+            GarageTest.garage.registerVehicle(new Vehicle("ID_1600", Marque.CITROEN));
+        } catch (ExceptionVehicleReference exception_vehicule_reference) {
             exception_vehicule_reference.printStackTrace();
         }
     }
@@ -39,8 +36,8 @@ class GarageTest {
     void enregistreVehiculeDuplicate() {
         boolean exceptionOK = false;
         try {
-            this.garage.registerVehicle(new Vehicle("ID_1300", Marque.Renault));
-        } catch (Exception_Vehicule_Reference exception_vehicule_reference) {
+            GarageTest.garage.registerVehicle(new Vehicle("ID_1300", Marque.RENAULT));
+        } catch (ExceptionVehicleReference exception_vehicule_reference) {
             exceptionOK = true;
         }
         assertThat(exceptionOK).isTrue();
@@ -50,12 +47,12 @@ class GarageTest {
     @Tag("CRUD")
     @DisplayName("Avons nous le même Garage ?")
     void testEquals() {
-        Garage aGarage = this.garage;
-        assertTrue(garage.equals(aGarage));
+        Garage aGarage = GarageTest.garage;
+        assertEquals(GarageTest.garage, aGarage);
         aGarage = new Garage("Nom1", "location1");
-        assertTrue(garage.equals(aGarage));
+        assertEquals(GarageTest.garage, aGarage);
         aGarage = new Garage("Nom2", "location1");
-        assertFalse(garage.equals(aGarage));
+        assertNotEquals(GarageTest.garage, aGarage);
     }
 
     @Test
@@ -64,8 +61,8 @@ class GarageTest {
     void numberOfVehicle() {
         assertEquals(7, garage.giveNumberOfVehicule());
         try {
-            this.garage.registerVehicle(new Vehicle("ID_2000", Marque.Citroen));
-        } catch (Exception_Vehicule_Reference exception_vehicule_reference) {
+            this.garage.registerVehicle(new Vehicle("ID_2000", Marque.CITROEN));
+        } catch (ExceptionVehicleReference exception_vehicule_reference) {
             exception_vehicule_reference.printStackTrace();
         }
         assertEquals(8, garage.giveNumberOfVehicule());

@@ -1,3 +1,4 @@
 
-?
-java:S1148"#Use a logger to log this exception.(†Ñæ!8èí¨îš.
+r	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÜú‹ıÿÿÿÿ8ÇÏ¹µ›.
+H
+java:S1168+"+Return an empty collection instead of null.(¥¹ï8ÇÏ¹µ›.

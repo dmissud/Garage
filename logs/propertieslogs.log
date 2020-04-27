@@ -1,0 +1,36 @@
+[INFO ] 2020-04-25 18:48:01.088 [main] ConsultGarageStockImpl - retrieveSupervisionOfGarage in
+[INFO ] 2020-04-25 18:57:57.332 [main] Main - Garrage Cli application START
+[INFO ] 2020-04-25 18:57:57.367 [main] Main - [Belle Voiture de luxe in Puteau have 4 vehicle(s)]
+[INFO ] 2020-04-25 18:57:57.368 [main] Main - [Super Tuture in Puteau have 7 vehicle(s)]
+[INFO ] 2020-04-25 18:57:57.368 [main] Main - Garrage Cli application ENDDING
+[INFO ] 2020-04-27 18:10:38.957 [main] Main - Run the application with memory repository
+[INFO ] 2020-04-27 19:02:51.598 [main] Main - Run the application with memory repository
+[INFO ] 2020-04-27 19:06:36.263 [main] Main - Run the application with memory repository
+[INFO ] 2020-04-27 19:09:02.743 [main] Main - Run the application with memory repository
+[INFO ] 2020-04-27 19:09:18.630 [main] GarageApplication - doEnrichLowStockGarage
+[INFO ] 2020-04-27 19:09:26.203 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-04-27 21:19:13.085 [main] Main - Run the application with memory repository
+[INFO ] 2020-04-27 21:19:30.078 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-04-27 21:19:40.699 [main] GarageApplication - doEnrichLowStockGarage
+[INFO ] 2020-04-27 21:29:11.957 [main] Main - Run the application with memory repository
+[INFO ] 2020-04-27 21:29:23.832 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-04-27 21:29:23.847 [main] GarageApplication - [Belle Voiture de luxe in Puteau have 4 vehicle(s)]
+[INFO ] 2020-04-27 21:29:23.847 [main] GarageApplication - [Super Tuture in Puteau have 7 vehicle(s)]
+[INFO ] 2020-04-27 21:29:31.197 [main] GarageApplication - doEnrichLowStockGarage
+[INFO ] 2020-04-27 21:29:31.198 [main] GarageApplication - IdChassi = 0
+[INFO ] 2020-04-27 21:29:31.198 [main] GarageApplication - [Belle Voiture de luxe in Puteau have 4 vehicle(s)]
+[INFO ] 2020-04-27 21:29:42.850 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-04-27 21:29:42.851 [main] GarageApplication - [Belle Voiture de luxe in Puteau have 8 vehicle(s)]
+[INFO ] 2020-04-27 21:29:42.851 [main] GarageApplication - [Super Tuture in Puteau have 7 vehicle(s)]
+[INFO ] 2020-04-27 21:30:21.138 [main] Main - Run the application with memory repository
+[INFO ] 2020-04-27 21:30:31.288 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-04-27 21:30:31.305 [main] GarageApplication - [Belle Voiture de luxe in Puteau have 4 vehicle(s)]
+[INFO ] 2020-04-27 21:30:31.305 [main] GarageApplication - [Super Tuture in Puteau have 7 vehicle(s)]
+[INFO ] 2020-04-27 21:30:34.537 [main] GarageApplication - doEnrichLowStockGarage
+[INFO ] 2020-04-27 21:30:34.538 [main] GarageApplication - IdChassi = 505
+[INFO ] 2020-04-27 21:30:34.538 [main] GarageApplication - [Belle Voiture de luxe in Puteau have 4 vehicle(s)]
+[INFO ] 2020-04-27 21:30:40.679 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-04-27 21:30:40.680 [main] GarageApplication - [Belle Voiture de luxe in Puteau have 8 vehicle(s)]
+[INFO ] 2020-04-27 21:30:40.680 [main] GarageApplication - [Super Tuture in Puteau have 7 vehicle(s)]
+[INFO ] 2020-04-27 21:30:43.036 [main] GarageApplication - doEnrichLowStockGarage
+[INFO ] 2020-04-27 21:30:43.036 [main] GarageApplication - IdChassi = 998

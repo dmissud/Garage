@@ -1,6 +1,6 @@
 package org.dbs.garagememory;
 
-import org.dbs.garage.application.Exception_Vehicule_Reference;
+import org.dbs.garage.application.ExceptionVehicleReference;
 import org.dbs.garage.application.IRepositoryOfGarage;
 import org.dbs.garage.application.UnknowGarage;
 import org.dbs.garage.application.UnknowLocation;
@@ -27,7 +27,7 @@ public class RepositoryOfGarageMemoryImpl implements IRepositoryOfGarage {
 
         try {
             memoryRepositoryBuilder.enrich(this.lstOfGarage);
-        } catch (Exception_Vehicule_Reference exceptionVehicleReference) {
+        } catch (ExceptionVehicleReference exceptionVehicleReference) {
             exceptionVehicleReference.printStackTrace();
         }
 
@@ -57,5 +57,10 @@ public class RepositoryOfGarageMemoryImpl implements IRepositoryOfGarage {
     @Override
     public List<String> retrieveNameOfAllGarage() {
         return new ArrayList<>(this.lstOfGarage.keySet());
+    }
+
+    @Override
+    public void store(Garage garage) {
+        this.lstOfGarage.replace(garage.getName(), garage);
     }
 }

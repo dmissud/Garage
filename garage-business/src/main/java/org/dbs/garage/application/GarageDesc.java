@@ -1,11 +1,11 @@
 package org.dbs.garage.application;
 
-public class GarageDescription {
+public class GarageDesc {
     private final String name;
     private final String location;
     private final int numberOfCars;
 
-    public GarageDescription(String name, String location, int numberOfCars) {
+    public GarageDesc(String name, String location, int numberOfCars) {
         this.name = name;
         this.location = location;
         this.numberOfCars = numberOfCars;

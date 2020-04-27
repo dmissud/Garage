@@ -8,4 +8,5 @@ public interface IRepositoryOfGarage {
     Garage retrieveGarageByName(String garageName) throws UnknowGarage;
     List<String> retrieveNameOfGarageByLocation(String locationName) throws UnknowLocation;
     List<String> retrieveNameOfAllGarage();
+    void store(Garage garage);
 }

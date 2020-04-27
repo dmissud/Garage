@@ -1,6 +1,6 @@
 package org.dbs.garagememory;
 
-import org.dbs.garage.application.Exception_Vehicule_Reference;
+import org.dbs.garage.application.ExceptionVehicleReference;
 import org.dbs.garage.domain.Garage;
 import org.dbs.garage.domain.Marque;
 import org.dbs.garage.domain.Vehicle;
@@ -17,32 +17,32 @@ public class MemoryRepositoryBuilder {
         this.idChassis = 10000;
     }
 
-    Garage initGarageSupperTuture() throws Exception_Vehicule_Reference {
+    Garage initGarageSupperTuture() throws ExceptionVehicleReference {
         Garage myGarage;
         myGarage = new Garage(SUPER_TUTURE, PUTEAU);
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Dacia));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Dacia));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Peugeot));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Renault));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Toyota));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Toyota));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Citroen));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.DACIA));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.DACIA));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.PEUGEOT));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.RENAULT));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.TOYOTA));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.TOYOTA));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.CITROEN));
 
         return myGarage;
     }
 
-    Garage initGarageBelleTuture() throws Exception_Vehicule_Reference {
+    Garage initGarageBelleTuture() throws ExceptionVehicleReference {
         Garage myGarage;
         myGarage = new Garage(BELLE_TUTURE, PUTEAU);
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Mercedes));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Mercedes));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Tesla));
-        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.Tesla));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.MERCEDES));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.MERCEDES));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.TESLA));
+        myGarage.registerVehicle(new Vehicle("ID_" + idChassis++, Marque.TESLA));
 
         return myGarage;
     }
 
-    public void enrich(Map<String, Garage> lstOfGarage) throws Exception_Vehicule_Reference {
+    public void enrich(Map<String, Garage> lstOfGarage) throws ExceptionVehicleReference {
         Garage garage = this.initGarageSupperTuture();
         lstOfGarage.put(garage.getName(), garage);
         garage = this.initGarageBelleTuture();

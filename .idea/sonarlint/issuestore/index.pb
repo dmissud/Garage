@@ -42,8 +42,6 @@ B
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 |
 Lgarage-business/src/main/java/org/dbs/garage/application/UnknowLocation.java,9\1\91630c9889086c09bc4a4bc38b32c2886e0c1ce4
-
-Ogarage-business/src/main/java/org/dbs/garage/application/GarageDescription.java,2\2\22bdeb67846ce5d592d548734e078598b5187c5a
 s
 Cgarage-business/src/test/java/org/dbs/garage/domain/GarageTest.java,4\8\483609b74b5d1ac1a8c902dbeeada105b9345363
 „
@@ -78,3 +76,11 @@ r
 B.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml,e\e\ee4f73f641e0bdf3a5e81881fe73139519e12a75
 f
 6.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml,7\5\75a5efe07bfd556010ee7fac1ea79d75c68724a1
+e
+5garage-line/src/test/java/org/dbs/appli/MainTest.java,e\3\e33c5167783b1b6fd314b5297f7d4ee0323f5a98
+€
+Pgarage-business/src/main/java/org/dbs/garage/application/IEnrichGarageStock.java,9\4\94a5c125b728c4fd97e41578627e586a0a13b33b
+€
+Pgarage-business/src/main/java/org/dbs/garage/application/RegisterVehicleCmd.java,9\3\936e8324c3276403706e855141ddd7e1606e3522
+ƒ
+Sgarage-business/src/main/java/org/dbs/garage/application/EnrichGarageStockImpl.java,e\4\e405d3161577494b5a9df1790d927084cc2a539b

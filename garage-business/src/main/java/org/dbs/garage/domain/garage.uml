@@ -11,7 +11,7 @@
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="219.5" y="250.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="251.0" />
   <SelectedNodes>
     <node>org.dbs.garage.domain.Vehicle</node>
   </SelectedNodes>

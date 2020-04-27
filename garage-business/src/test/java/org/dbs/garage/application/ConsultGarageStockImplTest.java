@@ -64,12 +64,12 @@ class ConsultGarageStockImplTest {
         when(garageN3.giveNumberOfVehicule()).thenReturn(8);
 
         // WHEN
-        List<GarageDescription> resultsDescriptionGarage = consultGarageStock.retrieveSupervisionOfGarage();
+        List<GarageDesc> resultsDescriptionGarage = consultGarageStock.retrieveSupervisionOfGarage();
 
         // THEN
         Assertions.assertThat(resultsDescriptionGarage.size()).isEqualTo(3);
 
-        GarageDescription descGarage = resultsDescriptionGarage.get(0);
+        GarageDesc descGarage = resultsDescriptionGarage.get(0);
         Assertions.assertThat(descGarage.getName()).isEqualTo("N1");
         Assertions.assertThat(descGarage.getLocation()).isEqualTo("Loc1");
         Assertions.assertThat(descGarage.getNumberOfCars()).isEqualTo(5);

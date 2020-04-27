@@ -1,6 +1,6 @@
 package org.dbs.garage.domain;
 
-import org.dbs.garage.application.Exception_Vehicule_Reference;
+import org.dbs.garage.application.ExceptionVehicleReference;
 
 import java.util.Map;
 import java.util.Objects;
@@ -17,11 +17,11 @@ public class Garage implements Comparable<Garage> {
         this.vehicules = new TreeMap<>();
     }
 
-    public void registerVehicle(Vehicle vehicle) throws Exception_Vehicule_Reference {
+    public void registerVehicle(Vehicle vehicle) throws ExceptionVehicleReference {
         if (vehicules.get(vehicle.Identification()) == null) {
             this.vehicules.put(vehicle.Identification(), vehicle);
         } else {
-            throw new Exception_Vehicule_Reference(vehicle.Identification());
+            throw new ExceptionVehicleReference(vehicle.Identification());
         }
     }
 

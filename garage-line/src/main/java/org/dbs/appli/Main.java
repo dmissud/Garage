@@ -1,29 +1,19 @@
 package org.dbs.appli;
 
-import org.dbs.garage.application.*;
-import org.dbs.garagememory.RepositoryOfGarageMemoryImpl;
-
-import java.util.List;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Main {
 
-    public static IConsultGarageStock consultGarageStock = null;
-    public static final String SUPER_TUTURE = "Super Tuture";
-    public static final String PUTEAU = "Puteau";
+
+    private static final Logger logger = LogManager.getLogger(Main.class);
 
     public static void main(String[] args) {
+        GarageApplication myGarageApplication = new GarageApplication();
 
-        linkComponentOfApplication();
+        logger.info("Run the application with memory repository");
+        myGarageApplication.run();
 
-        List<GarageDescription> lstGaragesDesc; ;
-        lstGaragesDesc = consultGarageStock.retrieveSupervisionOfGarage();
-
-        for (GarageDescription aGargeDesc: lstGaragesDesc) {
-            System.out.println(aGargeDesc);
-        }
     }
 
-    private static void linkComponentOfApplication() {
-        consultGarageStock = new ConsultGarageStockImpl(RepositoryOfGarageMemoryImpl.getInstance());
-    }
 }
