@@ -69,7 +69,7 @@ public class RepositoryOfGarageXmlImpl implements IRepositoryOfGarage {
     }
 
     public List<String> retrieveNameOfAllGarage() {
-        return new ArrayList<>(this.mapOfGarageXMLManager.keySet());
+        return (this.descriptionOfGaragesManager.retrieveNameOfAllgarage());
     }
 
     @Override

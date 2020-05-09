@@ -68,3 +68,30 @@
 [INFO ] 2020-05-07 20:29:17.627 [main] GarageApplication - [Garage 3 in Location 1 have 15 vehicle(s)]
 [INFO ] 2020-05-07 20:29:17.627 [main] GarageApplication - [Garage 2 in Location 2 have 3 vehicle(s)]
 [INFO ] 2020-05-07 20:29:17.627 [main] GarageApplication - [Garage 1 in Location 1 have 3 vehicle(s)]
+[INFO ] 2020-05-09 14:16:54.679 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-09 14:17:04.207 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-09 14:17:17.895 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-09 14:18:24.927 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-09 14:18:39.387 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-09 14:19:12.372 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-09 14:19:54.470 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-09 14:24:15.100 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-09 14:24:22.603 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-09 14:28:16.763 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-09 14:28:21.601 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-09 14:28:21.676 [main] GarageApplication - [Garage 4 in Location 2 have 11 vehicle(s)]
+[INFO ] 2020-05-09 14:28:21.676 [main] GarageApplication - [Garage 3 in Location 1 have 15 vehicle(s)]
+[INFO ] 2020-05-09 14:28:21.676 [main] GarageApplication - [Garage 2 in Location 2 have 3 vehicle(s)]
+[INFO ] 2020-05-09 14:28:21.676 [main] GarageApplication - [Garage 1 in Location 1T1T1T1T1 have 3 vehicle(s)]
+[INFO ] 2020-05-09 14:28:21.676 [main] GarageApplication - [NiiAcp8CfF in VLal0tMQNY have 0 vehicle(s)]
+[INFO ] 2020-05-09 14:28:48.918 [main] GarageApplication - doEnrichLowStockGarage
+[INFO ] 2020-05-09 14:28:48.920 [main] GarageApplication - IdChassis = -1362191202
+[INFO ] 2020-05-09 14:28:48.920 [main] GarageApplication - [Garage 2 in Location 2 have 3 vehicle(s)]
+[INFO ] 2020-05-09 14:28:49.030 [main] GarageApplication - [Garage 1 in Location 1T1T1T1T1 have 3 vehicle(s)]
+[INFO ] 2020-05-09 14:28:49.057 [main] GarageApplication - [NiiAcp8CfF in VLal0tMQNY have 0 vehicle(s)]
+[INFO ] 2020-05-09 14:28:53.158 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-09 14:28:53.159 [main] GarageApplication - [Garage 4 in Location 2 have 11 vehicle(s)]
+[INFO ] 2020-05-09 14:28:53.159 [main] GarageApplication - [Garage 3 in Location 1 have 15 vehicle(s)]
+[INFO ] 2020-05-09 14:28:53.159 [main] GarageApplication - [Garage 2 in Location 2 have 7 vehicle(s)]
+[INFO ] 2020-05-09 14:28:53.159 [main] GarageApplication - [Garage 1 in Location 1T1T1T1T1 have 7 vehicle(s)]
+[INFO ] 2020-05-09 14:28:53.159 [main] GarageApplication - [NiiAcp8CfF in VLal0tMQNY have 4 vehicle(s)]
