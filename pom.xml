@@ -11,6 +11,7 @@
         <module>garage-business</module>
         <module>garage-line</module>
         <module>garage-memory</module>
+        <module>garage-xml</module>
         <module>garage-web</module>
     </modules>
     <packaging>pom</packaging>

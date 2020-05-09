@@ -1,6 +1,10 @@
 package org.dbs.garage.application;
 
 import org.assertj.core.api.Assertions;
+import org.dbs.garage.application.service.ConsultGarageStockImpl;
+import org.dbs.garage.application.port.out.GarageDesc;
+import org.dbs.garage.application.port.out.IRepositoryOfGarage;
+import org.dbs.garage.application.port.out.UnknowGarage;
 import org.dbs.garage.domain.Garage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

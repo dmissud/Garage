@@ -1,0 +1,196 @@
+[INFO ] 2020-04-29 12:10:10.413 [main] RepositoryOfGarageXmlImpl - description
+[INFO ] 2020-04-29 12:10:10.420 [main] RepositoryOfGarageXmlImpl - numberOfGarage  4
+[INFO ] 2020-04-29 12:10:10.427 [main] RepositoryOfGarageXmlImpl - garage
+[INFO ] 2020-04-29 12:10:10.428 [main] RepositoryOfGarageXmlImpl - nom  Garage 1
+[INFO ] 2020-04-29 12:10:10.429 [main] RepositoryOfGarageXmlImpl - file  g_1.xml
+[INFO ] 2020-04-29 12:10:10.430 [main] RepositoryOfGarageXmlImpl - garage
+[INFO ] 2020-04-29 12:10:10.431 [main] RepositoryOfGarageXmlImpl - nom  Garage 2
+[INFO ] 2020-04-29 12:10:10.431 [main] RepositoryOfGarageXmlImpl - file  g_2.xml
+[INFO ] 2020-04-29 12:10:10.437 [main] RepositoryOfGarageXmlImpl - garage
+[INFO ] 2020-04-29 12:10:10.437 [main] RepositoryOfGarageXmlImpl - nom  Garage 3
+[INFO ] 2020-04-29 12:10:10.437 [main] RepositoryOfGarageXmlImpl - file  g_3.xml
+[INFO ] 2020-04-29 12:10:10.438 [main] RepositoryOfGarageXmlImpl - garage
+[INFO ] 2020-04-29 12:10:10.439 [main] RepositoryOfGarageXmlImpl - nom  Garage 4
+[INFO ] 2020-04-29 12:10:10.439 [main] RepositoryOfGarageXmlImpl - file  g_4.xml
+[INFO ] 2020-04-29 21:37:20.411 [main] RepositoryOfGarageXmlImpl - List of XML Garage Description initialized
+[INFO ] 2020-04-30 10:32:14.692 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-04-30 10:37:09.506 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-04-30 10:37:40.603 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-04-30 16:24:52.565 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-04 14:58:50.436 [main] DescriptionOfGaragesManager - "c:/garage"
+[INFO ] 2020-05-04 14:58:50.694 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-04 16:18:03.735 [main] DescriptionOfGaragesManager - "c:/garage"
+[INFO ] 2020-05-04 16:19:52.810 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:34:44.189 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:35:48.148 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 16:36:01.578 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:37:05.680 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 16:37:09.377 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[INFO ] 2020-05-04 16:39:42.066 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:39:55.354 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:40:04.151 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:40:04.986 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:41:03.845 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:41:13.855 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 16:41:17.396 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[INFO ] 2020-05-04 16:43:51.986 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:47:08.355 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 16:47:08.457 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[INFO ] 2020-05-04 16:49:38.972 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:54:38.874 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 16:54:45.973 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:56:02.881 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 16:56:02.976 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[INFO ] 2020-05-04 16:56:12.389 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:57:13.992 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:58:24.720 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 16:58:29.569 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 16:59:22.318 [main] XmlGarageProperties - "C:/Users/danie/.garage"/garage_liste.xml
+[INFO ] 2020-05-04 17:00:17.798 [main] XmlGarageProperties - C:/Users/danie/.garage/garage_liste.xml
+[INFO ] 2020-05-04 17:04:26.904 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 17:04:31.898 [main] XmlGarageProperties - C:/Users/danie/.garage/garage_liste.xml
+[INFO ] 2020-05-04 17:04:41.527 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-04 17:04:41.527 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 17:04:43.231 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[INFO ] 2020-05-04 17:18:30.967 [main] XmlGarageProperties - C:/Users/danie/.garage/garage_liste.xml
+[INFO ] 2020-05-04 17:18:31.147 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-04 17:18:31.148 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 17:18:31.273 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[INFO ] 2020-05-04 18:32:40.798 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[INFO ] 2020-05-04 18:32:56.743 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-04 18:32:56.743 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-04 18:33:03.442 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[INFO ] 2020-05-04 20:28:24.933 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[INFO ] 2020-05-04 20:28:25.092 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-04 20:28:25.093 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[INFO ] 2020-05-07 10:17:27.779 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 10:17:28.028 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 10:17:28.029 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 10:17:28.044 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[ERROR] 2020-05-07 10:17:28.092 [main] GarageXMLLoader - org.xml.sax.SAXParseException; systemId: file:/C:/Users/danie/Google%20Drive/Badge%20EPITA/TP/java/Garage/garage-xml/target/classes/garage.xsd; lineNumber: 17; columnNumber: 56; s4s-elt-invalid-content.1 : Le contenu de '#AnonType_garage' n'est pas valide. L'élément 'element' n'est pas valide, est mal placé ou compte trop d'occurrences.
+[DEBUG] 2020-05-07 10:17:28.092 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 10:17:47.321 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[ERROR] 2020-05-07 10:17:47.325 [main] GarageXMLLoader - org.xml.sax.SAXParseException; systemId: file:/C:/Users/danie/Google%20Drive/Badge%20EPITA/TP/java/Garage/garage-xml/target/classes/garage.xsd; lineNumber: 17; columnNumber: 56; s4s-elt-invalid-content.1 : Le contenu de '#AnonType_garage' n'est pas valide. L'élément 'element' n'est pas valide, est mal placé ou compte trop d'occurrences.
+[DEBUG] 2020-05-07 10:17:47.326 [main] GarageXMLLoader - g_1.xml need to be load
+[INFO ] 2020-05-07 13:41:42.590 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 13:41:42.806 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 13:41:42.807 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 13:41:42.829 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 13:41:42.878 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 13:49:47.838 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 13:49:54.196 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 13:49:54.397 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 13:49:54.397 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 13:49:54.419 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 13:52:18.197 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 13:52:18.211 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 13:52:48.929 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 13:52:49.149 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 13:52:49.150 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 13:52:49.168 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 13:53:41.221 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 13:53:41.236 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 13:59:18.875 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 13:59:19.125 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 13:59:19.125 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 13:59:19.145 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 14:18:25.576 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 14:18:25.594 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 14:18:31.017 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 14:18:31.217 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 14:18:31.217 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 14:18:31.237 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 14:18:35.920 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 14:20:06.597 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 14:20:12.140 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 14:20:12.337 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 14:20:12.338 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 14:20:12.356 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 14:20:18.913 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 15:24:34.631 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 15:24:43.927 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 15:24:44.105 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 15:24:44.105 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 15:24:44.120 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 15:24:44.133 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 15:25:04.191 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 15:27:22.435 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 15:27:22.646 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 15:27:22.646 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 15:27:22.665 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 15:27:22.680 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 15:29:26.267 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 15:31:52.886 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 15:31:53.194 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 15:31:53.195 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 15:31:53.216 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 15:31:53.240 [main] GarageXMLLoader - g_1.xml need to be load
+[DEBUG] 2020-05-07 15:32:24.631 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 15:33:32.505 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 15:33:32.743 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 15:33:32.743 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 15:33:32.780 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 15:33:32.871 [main] GarageXMLLoader - g_1.xml need to be load
+[INFO ] 2020-05-07 15:33:54.595 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[DEBUG] 2020-05-07 15:34:01.932 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 15:34:06.981 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-07 15:34:55.779 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-07 15:34:56.022 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-07 15:34:56.023 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-07 15:34:56.043 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 15:35:02.828 [main] GarageXMLLoader - g_1.xml need to be load
+[INFO ] 2020-05-07 15:35:02.935 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl StoreGarage 1
+[DEBUG] 2020-05-07 15:35:06.712 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-07 15:35:18.070 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-08 10:35:05.201 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-08 10:35:05.432 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-08 10:35:05.433 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-08 10:35:05.451 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-08 10:35:05.451 [main] GarageXMLManager - g_1.xml need to be load
+[INFO ] 2020-05-08 10:35:05.621 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-08 10:35:05.624 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-08 10:35:05.627 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-08 10:36:27.862 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-08 10:36:27.988 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-08 10:36:27.989 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-08 10:36:28.002 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-08 10:36:28.002 [main] GarageXMLManager - g_1.xml need to be load
+[INFO ] 2020-05-08 10:36:28.123 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-08 10:36:28.125 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-08 10:36:28.129 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-08 10:52:57.108 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-08 10:52:57.284 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-08 10:52:57.284 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-08 10:52:57.302 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-08 10:52:57.303 [main] GarageXMLManager - g_1.xml need to be load
+[INFO ] 2020-05-08 10:52:57.448 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-08 10:52:57.451 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[DEBUG] 2020-05-08 10:52:57.453 [main] DescriptionOfGaragesManager - Garage Garage 1 find
+[INFO ] 2020-05-09 12:09:58.515 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-09 12:09:58.636 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-09 12:09:58.637 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-09 12:09:58.656 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-09 12:10:47.396 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-09 12:10:47.500 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-09 12:10:47.500 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-09 12:10:47.518 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-09 12:10:47.627 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-09 12:10:47.627 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-09 12:13:20.842 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-09 12:13:20.972 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-09 12:13:20.972 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-09 12:13:20.993 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-09 12:13:21.108 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-09 12:13:21.108 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-09 12:22:23.289 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-09 12:22:23.419 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-09 12:22:23.420 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-09 12:22:27.016 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-09 12:24:28.727 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-09 12:24:28.728 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-09 13:13:11.710 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-09 13:13:11.852 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-09 13:13:11.853 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-09 13:13:11.860 [main] DescriptionOfGaragesManager - New file cF1mPdld0GweOZGGsUyh.xml for NiiAcp8CfF
+[INFO ] 2020-05-09 13:13:11.983 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : NiiAcp8CfF
+[DEBUG] 2020-05-09 13:13:11.983 [main] RepositoryOfGarageXmlImpl - Garage NiiAcp8CfF find

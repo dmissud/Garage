@@ -34,3 +34,37 @@
 [INFO ] 2020-04-27 21:30:40.680 [main] GarageApplication - [Super Tuture in Puteau have 7 vehicle(s)]
 [INFO ] 2020-04-27 21:30:43.036 [main] GarageApplication - doEnrichLowStockGarage
 [INFO ] 2020-04-27 21:30:43.036 [main] GarageApplication - IdChassi = 998
+[INFO ] 2020-05-07 15:38:56.972 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-07 15:39:09.389 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-07 15:39:21.902 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-07 15:39:34.202 [main] GarageApplication - doEnrichLowStockGarage
+[INFO ] 2020-05-07 15:40:16.176 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-07 15:42:28.735 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-07 15:44:08.274 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-07 15:44:14.071 [main] GarageApplication - doDescriptionOfGarage
+[ERROR] 2020-05-07 15:44:14.072 [main] GarageApplication - java.lang.NullPointerException
+[INFO ] 2020-05-07 15:45:24.172 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-07 15:46:01.147 [main] GarageApplication - doDescriptionOfGarage
+[ERROR] 2020-05-07 15:46:30.874 [main] GarageApplication - java.lang.NullPointerException
+[INFO ] 2020-05-07 17:00:49.135 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-07 17:01:12.041 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-07 17:01:12.100 [main] GarageApplication - [Garage 4 in Location 2 have 11 vehicle(s)]
+[INFO ] 2020-05-07 17:01:12.100 [main] GarageApplication - [Garage 3 in Location 1 have 15 vehicle(s)]
+[INFO ] 2020-05-07 17:01:12.100 [main] GarageApplication - [Garage 2 in Location 2 have 3 vehicle(s)]
+[INFO ] 2020-05-07 17:01:12.101 [main] GarageApplication - [Garage 1 in Location 1 have 3 vehicle(s)]
+[ERROR] 2020-05-07 17:01:41.689 [main] GarageApplication - java.lang.NumberFormatException: For input string: ""
+[INFO ] 2020-05-07 20:28:52.202 [main] Main - Run the application with memory repository
+[INFO ] 2020-05-07 20:28:59.490 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-07 20:28:59.559 [main] GarageApplication - [Garage 4 in Location 2 have 11 vehicle(s)]
+[INFO ] 2020-05-07 20:28:59.560 [main] GarageApplication - [Garage 3 in Location 1 have 15 vehicle(s)]
+[INFO ] 2020-05-07 20:28:59.560 [main] GarageApplication - [Garage 2 in Location 2 have 3 vehicle(s)]
+[INFO ] 2020-05-07 20:28:59.560 [main] GarageApplication - [Garage 1 in Location 1 have 3 vehicle(s)]
+[INFO ] 2020-05-07 20:29:13.433 [main] GarageApplication - doEnrichLowStockGarage
+[INFO ] 2020-05-07 20:29:13.450 [main] GarageApplication - IdChassis = 114422
+[INFO ] 2020-05-07 20:29:13.450 [main] GarageApplication - [Garage 2 in Location 2 have 3 vehicle(s)]
+[INFO ] 2020-05-07 20:29:13.545 [main] GarageApplication - [Garage 1 in Location 1 have 3 vehicle(s)]
+[INFO ] 2020-05-07 20:29:17.615 [main] GarageApplication - doDescriptionOfGarage
+[INFO ] 2020-05-07 20:29:17.627 [main] GarageApplication - [Garage 4 in Location 2 have 11 vehicle(s)]
+[INFO ] 2020-05-07 20:29:17.627 [main] GarageApplication - [Garage 3 in Location 1 have 15 vehicle(s)]
+[INFO ] 2020-05-07 20:29:17.627 [main] GarageApplication - [Garage 2 in Location 2 have 3 vehicle(s)]
+[INFO ] 2020-05-07 20:29:17.627 [main] GarageApplication - [Garage 1 in Location 1 have 3 vehicle(s)]

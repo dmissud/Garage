@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="vehicle">
+        <xs:complexType>
+            <xs:attribute name="idChassis" type="xs:string" use="required"/>
+            <xs:attribute name="marque" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="garage">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vehicle" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="numberOfVehicle" type="xs:int" use="required"/>
+            <xs:attribute name="location" type="xs:string" use="required"/>
+            <xs:attribute name="nom" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

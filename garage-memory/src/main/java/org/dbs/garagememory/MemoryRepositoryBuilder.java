@@ -1,6 +1,6 @@
 package org.dbs.garagememory;
 
-import org.dbs.garage.application.ExceptionVehicleReference;
+import org.dbs.garage.application.service.ExceptionVehicleReference;
 import org.dbs.garage.domain.Garage;
 import org.dbs.garage.domain.Marque;
 import org.dbs.garage.domain.Vehicle;
@@ -8,9 +8,9 @@ import org.dbs.garage.domain.Vehicle;
 import java.util.Map;
 
 public class MemoryRepositoryBuilder {
-    public static final String SUPER_TUTURE = "Super Tuture";
+    public static final String SUPER_TUTURE = "Garage 1";
     public static final String PUTEAU = "Puteau";
-    static final String BELLE_TUTURE = "Belle Voiture de luxe";
+    static final String BELLE_TUTURE = "Garage 2";
     private int idChassis;
 
     public MemoryRepositoryBuilder() {

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="garage">
+        <xs:complexType>
+            <xs:attribute name="nom" type="xs:string" use="required"/>
+            <xs:attribute name="file" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="garages">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="garage" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="numberOfGarage" type="xs:int"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

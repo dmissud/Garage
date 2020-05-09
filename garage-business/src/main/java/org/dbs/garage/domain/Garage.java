@@ -1,10 +1,8 @@
 package org.dbs.garage.domain;
 
-import org.dbs.garage.application.ExceptionVehicleReference;
+import org.dbs.garage.application.service.ExceptionVehicleReference;
 
-import java.util.Map;
-import java.util.Objects;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Garage implements Comparable<Garage> {
     private Map<String, Vehicle> vehicules;
@@ -14,14 +12,28 @@ public class Garage implements Comparable<Garage> {
     public Garage(String nom, String location) {
         this.name = nom;
         this.location = location;
-        this.vehicules = new TreeMap<>();
+        this.vehicules = new HashMap<>();
+    }
+
+    public Garage(Garage garage) {
+        this.name = garage.getName();
+        this.location = garage.getLocation();
+        this.vehicules = garage.giveLstVehicleInGarage();
+    }
+
+    public Map<String, Vehicle> giveLstVehicleInGarage() {
+        Map<String, Vehicle> lstVehicleInGarage = new HashMap<>();
+        for (Vehicle vehicle : vehicules.values()) {
+            lstVehicleInGarage.put(vehicle.identification(), new Vehicle(vehicle));
+        }
+        return lstVehicleInGarage;
     }
 
     public void registerVehicle(Vehicle vehicle) throws ExceptionVehicleReference {
-        if (vehicules.get(vehicle.Identification()) == null) {
-            this.vehicules.put(vehicle.Identification(), vehicle);
+        if (vehicules.get(vehicle.identification()) == null) {
+            this.vehicules.put(vehicle.identification(), vehicle);
         } else {
-            throw new ExceptionVehicleReference(vehicle.Identification());
+            throw new ExceptionVehicleReference(vehicle.identification());
         }
     }
 
@@ -68,5 +80,9 @@ public class Garage implements Comparable<Garage> {
 
     public int giveNumberOfVehicule() {
         return this.vehicules.size();
+    }
+
+    public void changeLocation(String newLocation) {
+        this.location = newLocation;
     }
 }

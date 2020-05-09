@@ -1,6 +1,6 @@
 package org.dbs.garage.domain;
 
-import org.dbs.garage.application.ExceptionVehicleReference;
+import org.dbs.garage.application.service.ExceptionVehicleReference;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -61,7 +61,7 @@ class GarageTest {
     void numberOfVehicle() {
         assertEquals(7, garage.giveNumberOfVehicule());
         try {
-            this.garage.registerVehicle(new Vehicle("ID_2000", Marque.CITROEN));
+            GarageTest.garage.registerVehicle(new Vehicle("ID_2000", Marque.CITROEN));
         } catch (ExceptionVehicleReference exception_vehicule_reference) {
             exception_vehicule_reference.printStackTrace();
         }

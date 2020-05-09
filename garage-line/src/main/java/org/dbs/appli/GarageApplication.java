@@ -2,22 +2,31 @@ package org.dbs.appli;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.dbs.garage.application.*;
-import org.dbs.garage.domain.Marque;
-import org.dbs.garagememory.RepositoryOfGarageMemoryImpl;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+
+
+import org.dbs.garage.application.port.in.IEnrichGarageStock;
+import org.dbs.garage.application.port.out.IConsultGarageStock;
+import org.dbs.garage.application.service.ConsultGarageStockImpl;
+import org.dbs.garage.application.service.EnrichGarageStockImpl;
+import org.dbs.garage.application.port.out.GarageDesc;
+import org.dbs.garage.application.port.in.RegisterVehicleCmd;
+import org.dbs.garage.domain.Marque;
+import org.dbs.garagexml.RepositoryOfGarageXmlImpl;
 
 public class GarageApplication {
     private TextMenu rootMenu;
     private IConsultGarageStock consultGarageStock = null;
     private IEnrichGarageStock enrichGarageStock = null;
     private static final Logger logger = LogManager.getLogger(GarageApplication.class);
+    private Random random;
 
     public GarageApplication() {
+        random = new Random();
         initMenuOfGarage();
         linkComponentOfApplication();
     }
@@ -43,17 +52,16 @@ public class GarageApplication {
     private void doEnrichLowStockGarage() {
         logger.info("doEnrichLowStockGarage");
         List<GarageDesc> lstDescGarage = consultGarageStock.retrieveGarageWithLowStock(5);
-        int idChassis;
-        idChassis = (int) (Math.random() * 1000000);
+        int idChassis = random.nextInt();
         logger.info(String.format("IdChassis = %d", idChassis));
         for (GarageDesc dDescOfGarage : lstDescGarage) {
             logger.info(dDescOfGarage);
             List<RegisterVehicleCmd> lstVehicleToRegister = new ArrayList<>();
             String nameGarageToEnrich = dDescOfGarage.getName();
-            lstVehicleToRegister.add(new RegisterVehicleCmd(nameGarageToEnrich, "ID_" + idChassis++, Marque.DACIA));
-            lstVehicleToRegister.add(new RegisterVehicleCmd(nameGarageToEnrich, "ID_" + idChassis++, Marque.RENAULT));
-            lstVehicleToRegister.add(new RegisterVehicleCmd(nameGarageToEnrich, "ID_" + idChassis++, Marque.MERCEDES));
-            lstVehicleToRegister.add(new RegisterVehicleCmd(nameGarageToEnrich, "ID_" + idChassis++, Marque.OPEL));
+            lstVehicleToRegister.add(new RegisterVehicleCmd(nameGarageToEnrich, "ID_" + random.nextInt(), Marque.DACIA));
+            lstVehicleToRegister.add(new RegisterVehicleCmd(nameGarageToEnrich, "ID_" + random.nextInt(), Marque.RENAULT));
+            lstVehicleToRegister.add(new RegisterVehicleCmd(nameGarageToEnrich, "ID_" + random.nextInt(), Marque.MERCEDES));
+            lstVehicleToRegister.add(new RegisterVehicleCmd(nameGarageToEnrich, "ID_" + random.nextInt(), Marque.OPEL));
             enrichGarageStock.registerVehicleToGarage(lstVehicleToRegister);
         }
     }
@@ -78,6 +86,7 @@ public class GarageApplication {
                 currentMenu = currentMenu.doOption(Integer.parseInt(inp));
             } catch (Exception ex) {
                 System.out.println("Didn't understand " + inp);
+                logger.error(ex);
             }
         }
 
@@ -85,7 +94,7 @@ public class GarageApplication {
 
 
     private void linkComponentOfApplication() {
-        consultGarageStock = new ConsultGarageStockImpl(RepositoryOfGarageMemoryImpl.getInstance());
-        enrichGarageStock = new EnrichGarageStockImpl(RepositoryOfGarageMemoryImpl.getInstance());
+        consultGarageStock = new ConsultGarageStockImpl(RepositoryOfGarageXmlImpl.getInstance());
+        enrichGarageStock = new EnrichGarageStockImpl(RepositoryOfGarageXmlImpl.getInstance());
     }
 }
