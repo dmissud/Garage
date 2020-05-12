@@ -14,7 +14,27 @@
 
   <servlet-mapping>
     <servlet-name>Garage</servlet-name>
-    <url-pattern>/garage</url-pattern>
+    <url-pattern>/MyGarage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Supervision</servlet-name>
+    <servlet-class>org.dbs.webgarage.Supervision</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Supervision</servlet-name>
+    <url-pattern>/Supervision</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>About</servlet-name>
+    <servlet-class>org.dbs.webgarage.About</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>About</servlet-name>
+    <url-pattern>/about</url-pattern>
   </servlet-mapping>
 
 </web-app>

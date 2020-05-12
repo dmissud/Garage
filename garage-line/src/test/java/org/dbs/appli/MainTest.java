@@ -12,7 +12,7 @@ import org.dbs.garage.application.service.EnrichGarageStockImpl;
 import org.dbs.garage.application.port.out.GarageDesc;
 import org.dbs.garage.application.port.in.RegisterVehicleCmd;
 import org.dbs.garage.domain.Marque;
-import org.dbs.garagexml.RepositoryOfGarageXmlImpl;
+import org.dbs.garagememory.RepositoryOfGarageMemoryImpl;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -36,7 +36,7 @@ class MainTest {
 
         List<GarageDesc> lstGaragesDesc = consultGarageStock.retrieveSupervisionOfGarage();
 
-        assertThat(lstGaragesDesc.size()).isEqualTo(4);
+        assertThat(lstGaragesDesc.size()).isEqualTo(2);
     }
 
     @Test
@@ -92,8 +92,11 @@ class MainTest {
 
     @BeforeEach
     private void linkComponentOfApplication() {
-        consultGarageStock = new ConsultGarageStockImpl(RepositoryOfGarageXmlImpl.getInstance());
-        enrichGarageStock = new EnrichGarageStockImpl(RepositoryOfGarageXmlImpl.getInstance());
+        RepositoryOfGarageMemoryImpl repositoryOfGarageMemory =
+                (RepositoryOfGarageMemoryImpl) RepositoryOfGarageMemoryImpl.getInstance();
+        repositoryOfGarageMemory.initialize();
+        consultGarageStock = new ConsultGarageStockImpl(repositoryOfGarageMemory);
+        enrichGarageStock = new EnrichGarageStockImpl(repositoryOfGarageMemory);
     }
 
 }

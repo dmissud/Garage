@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Map;
 import java.util.Properties;
 
 public class XmlGarageProperties {
@@ -16,12 +17,14 @@ public class XmlGarageProperties {
     static final String DATA_GARAGE_XSD = "garage.xsd";
     static final String GARAGE_LIST_FILE = "garage_liste.xml";
     static final String GARAGE_XML_PROPERTIES = "garage_xml.properties";
+    public static final String ENV_XML_GARAGE_DIRECTORY = "ENV_XML_GARAGE_DIRECTORY";
 
     private String dbDirectory = null;
     private URL lstGarageFileName = null;
     private URL garageListeXSD;
     private URL garageXSD;
 
+    private boolean envOk = false;
     private static XmlGarageProperties xmlGarageProperties = null;
 
     static XmlGarageProperties getInstance() {
@@ -35,19 +38,54 @@ public class XmlGarageProperties {
         loadProperties();
     }
 
+    boolean isEnvOk() {
+        return envOk;
+    }
+
+    private void setEnvOk(boolean envOk) {
+        this.envOk = envOk;
+    }
+
     private void loadProperties() {
+        ClassLoader classLoader =
+                DescriptionOfGaragesManager.class.getClassLoader();
+        this.garageListeXSD = classLoader.getResource(DATA_GARAGE_LISTE_XSD);
+        this.garageXSD = classLoader.getResource(DATA_GARAGE_XSD);
+
+        loadEnvProperties();
+        if (!isEnvOk()) {
+            loadEnvFromPropertiesFile();
+        }
+    }
+
+    private void loadEnvProperties()  {
+        setEnvOk(false);
+        Map<String, String> envs = System.getenv();
+        this.dbDirectory = envs.get(ENV_XML_GARAGE_DIRECTORY);
+        if (this.dbDirectory != null) {
+            try {
+                this.lstGarageFileName =
+                        new URL("file:/".concat(this.dbDirectory).concat("/").concat(GARAGE_LIST_FILE));
+                setEnvOk(true);
+            } catch (MalformedURLException e) {
+                logger.error(e);
+            }
+        }
+    }
+
+    private void loadEnvFromPropertiesFile() {
         try {
+
             ClassLoader classLoader =
                     DescriptionOfGaragesManager.class.getClassLoader();
 
             InputStream propertiesStream = classLoader.getResourceAsStream(GARAGE_XML_PROPERTIES);
-            this.garageListeXSD = classLoader.getResource(DATA_GARAGE_LISTE_XSD);
-            this.garageXSD = classLoader.getResource(DATA_GARAGE_XSD);
 
             Properties prop = new Properties();
 
             if (propertiesStream == null) {
                 logger.error("Sorry, unable to find garage_xml.properties");
+                setEnvOk(false);
                 return;
             }
 
@@ -59,6 +97,7 @@ public class XmlGarageProperties {
             this.lstGarageFileName =
                     new URL("file:/".concat(this.dbDirectory).concat("/").concat(GARAGE_LIST_FILE));
             logger.info(this.lstGarageFileName);
+            setEnvOk(true);
 
         } catch (IOException ex) {
             logger.error(ex);

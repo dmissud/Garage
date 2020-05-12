@@ -31,7 +31,9 @@ public class TextMenu {
         public String toString() {
             StringBuilder sb = new StringBuilder();
             sb.append(title).append("\n");
-            sb.append("-".repeat(title.length()));
+            for(int loop = 0; loop < title.length(); loop++) {
+                sb.append("-");
+            }
             sb.append("\n");
             for (int i = 0; i < items.size(); i++) {
                 sb.append((i + 1)).append(") ").append(items.get(i)).append("\n");

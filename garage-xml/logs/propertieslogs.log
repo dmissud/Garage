@@ -194,3 +194,245 @@
 [DEBUG] 2020-05-09 13:13:11.860 [main] DescriptionOfGaragesManager - New file cF1mPdld0GweOZGGsUyh.xml for NiiAcp8CfF
 [INFO ] 2020-05-09 13:13:11.983 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : NiiAcp8CfF
 [DEBUG] 2020-05-09 13:13:11.983 [main] RepositoryOfGarageXmlImpl - Garage NiiAcp8CfF find
+[INFO ] 2020-05-10 10:24:34.695 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:24:34.798 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:24:34.798 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:24:34.812 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:24:34.890 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:24:34.890 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:24:34.967 [main] DescriptionOfGaragesManager - New file 93LnNLoQmd8mYM5vbEvO.xml for W3KKdHeaq0
+[INFO ] 2020-05-10 10:24:34.972 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : W3KKdHeaq0
+[DEBUG] 2020-05-10 10:24:34.972 [main] RepositoryOfGarageXmlImpl - Garage W3KKdHeaq0 find
+[DEBUG] 2020-05-10 10:24:34.976 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:24:34.976 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:25:21.051 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:25:21.104 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:25:21.104 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:25:21.117 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:25:21.181 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:25:21.181 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:25:21.264 [main] DescriptionOfGaragesManager - New file 3mFtdRD7t5X1nDxBd6wo.xml for hOPMAkdUW5
+[INFO ] 2020-05-10 10:25:21.268 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : hOPMAkdUW5
+[DEBUG] 2020-05-10 10:25:21.268 [main] RepositoryOfGarageXmlImpl - Garage hOPMAkdUW5 find
+[DEBUG] 2020-05-10 10:25:21.273 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:25:21.273 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:26:30.492 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:26:30.547 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:26:30.547 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:26:30.559 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:26:30.621 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:26:30.622 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:26:30.698 [main] DescriptionOfGaragesManager - New file W1HIey24gxjsIGEfJOLI.xml for TZQuCClyHu
+[INFO ] 2020-05-10 10:26:30.703 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : TZQuCClyHu
+[DEBUG] 2020-05-10 10:26:30.703 [main] RepositoryOfGarageXmlImpl - Garage TZQuCClyHu find
+[DEBUG] 2020-05-10 10:26:30.707 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:26:30.707 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:32:27.498 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:32:27.552 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:32:27.552 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:32:27.563 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:32:27.622 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:32:27.623 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:32:27.694 [main] DescriptionOfGaragesManager - New file NxCKwdL6Xe7yC1C9yTUe.xml for 2Bc4k54UvQ
+[INFO ] 2020-05-10 10:32:27.699 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : 2Bc4k54UvQ
+[DEBUG] 2020-05-10 10:32:27.699 [main] RepositoryOfGarageXmlImpl - Garage 2Bc4k54UvQ find
+[DEBUG] 2020-05-10 10:32:27.704 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:32:27.704 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:48:03.944 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:48:04.008 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:48:04.008 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:48:04.022 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:48:04.097 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:48:04.097 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:48:04.181 [main] DescriptionOfGaragesManager - New file gnv3xL94RegTtvfZqRBK.xml for xum9tCNkeM
+[INFO ] 2020-05-10 10:48:04.186 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : xum9tCNkeM
+[DEBUG] 2020-05-10 10:48:04.186 [main] RepositoryOfGarageXmlImpl - Garage xum9tCNkeM find
+[DEBUG] 2020-05-10 10:48:04.190 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:48:04.191 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:49:21.726 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:49:21.782 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:49:21.782 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:49:21.793 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:49:21.856 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:49:21.856 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:49:21.940 [main] DescriptionOfGaragesManager - New file hZE8p2jotPzUVHbKTbPO.xml for ElA9awi0CO
+[INFO ] 2020-05-10 10:49:21.944 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : ElA9awi0CO
+[DEBUG] 2020-05-10 10:49:21.945 [main] RepositoryOfGarageXmlImpl - Garage ElA9awi0CO find
+[DEBUG] 2020-05-10 10:49:21.949 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:49:21.949 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:49:46.409 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:49:46.464 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:49:46.464 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:49:46.474 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:49:46.540 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:49:46.540 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:49:46.616 [main] DescriptionOfGaragesManager - New file 5eeDS1n0rkoPZlN9wDwT.xml for D8wZ4JGZSC
+[INFO ] 2020-05-10 10:49:46.622 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : D8wZ4JGZSC
+[DEBUG] 2020-05-10 10:49:46.622 [main] RepositoryOfGarageXmlImpl - Garage D8wZ4JGZSC find
+[DEBUG] 2020-05-10 10:49:46.626 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:49:46.626 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:51:54.630 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:51:54.685 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:51:54.685 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:51:54.696 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:51:54.759 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:51:54.759 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:51:54.840 [main] DescriptionOfGaragesManager - New file z6tQSMWOZKYkTur85Kw3.xml for r92vP9atDC
+[INFO ] 2020-05-10 10:51:54.845 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : r92vP9atDC
+[DEBUG] 2020-05-10 10:51:54.845 [main] RepositoryOfGarageXmlImpl - Garage r92vP9atDC find
+[DEBUG] 2020-05-10 10:51:54.849 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:51:54.850 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:59:50.167 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 10:59:50.281 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 10:59:50.281 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 10:59:50.290 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 10:59:50.354 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 10:59:50.354 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:59:50.421 [main] DescriptionOfGaragesManager - New file XzPTv3xIN3vpVNPXKZ8X.xml for FVHRoGsQJL
+[INFO ] 2020-05-10 10:59:50.426 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : FVHRoGsQJL
+[DEBUG] 2020-05-10 10:59:50.426 [main] RepositoryOfGarageXmlImpl - Garage FVHRoGsQJL find
+[DEBUG] 2020-05-10 10:59:50.429 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 10:59:50.430 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 11:05:14.945 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 11:05:14.997 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 11:05:14.997 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 11:05:15.008 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 11:05:15.054 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 11:05:15.054 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 11:05:15.120 [main] DescriptionOfGaragesManager - New file Ym9s0ibqUoV1RdPfySju.xml for DPlldc2aDO
+[INFO ] 2020-05-10 11:05:15.124 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : DPlldc2aDO
+[DEBUG] 2020-05-10 11:05:15.125 [main] RepositoryOfGarageXmlImpl - Garage DPlldc2aDO find
+[DEBUG] 2020-05-10 11:05:15.128 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 11:05:15.128 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 11:22:16.506 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 11:22:16.555 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 11:22:16.555 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 11:22:16.565 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 11:22:16.610 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 11:22:16.610 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 11:22:16.673 [main] DescriptionOfGaragesManager - New file CnjMfq3iT0b5kNxEER5N.xml for DcPFtHYMMB
+[INFO ] 2020-05-10 11:22:16.677 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : DcPFtHYMMB
+[DEBUG] 2020-05-10 11:22:16.678 [main] RepositoryOfGarageXmlImpl - Garage DcPFtHYMMB find
+[DEBUG] 2020-05-10 11:22:16.681 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 11:22:16.681 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 11:23:59.513 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 11:23:59.564 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 11:23:59.564 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 11:23:59.574 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 11:23:59.620 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 11:23:59.621 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 11:23:59.693 [main] DescriptionOfGaragesManager - New file VdgBtzgumJRZdSvesNAN.xml for 2DpuH3qc5Q
+[INFO ] 2020-05-10 11:23:59.698 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : 2DpuH3qc5Q
+[DEBUG] 2020-05-10 11:23:59.698 [main] RepositoryOfGarageXmlImpl - Garage 2DpuH3qc5Q find
+[DEBUG] 2020-05-10 11:23:59.702 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 11:23:59.702 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 11:30:30.205 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 11:30:30.257 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 11:30:30.258 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 11:30:30.268 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 11:30:30.314 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 11:30:30.314 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 11:30:30.378 [main] DescriptionOfGaragesManager - New file i6FtzZo9QYsK61KfKMpg.xml for ViHXaBdfuP
+[INFO ] 2020-05-10 11:30:30.383 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : ViHXaBdfuP
+[DEBUG] 2020-05-10 11:30:30.383 [main] RepositoryOfGarageXmlImpl - Garage ViHXaBdfuP find
+[DEBUG] 2020-05-10 11:30:30.387 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 11:30:30.387 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 12:04:43.774 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 12:04:43.824 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 12:04:43.824 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 12:04:43.834 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 12:04:43.880 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 12:04:43.880 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 12:04:43.944 [main] DescriptionOfGaragesManager - New file cGJUbHGABfYHGmDodyDs.xml for vXLhSrBXar
+[INFO ] 2020-05-10 12:04:43.949 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : vXLhSrBXar
+[DEBUG] 2020-05-10 12:04:43.949 [main] RepositoryOfGarageXmlImpl - Garage vXLhSrBXar find
+[DEBUG] 2020-05-10 12:04:43.953 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 12:04:43.953 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 12:12:51.439 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 12:12:51.489 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 12:12:51.489 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 12:12:51.500 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 12:12:51.547 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 12:12:51.547 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 12:12:51.615 [main] DescriptionOfGaragesManager - New file 6ADc5mbsQ9X4M2PK7dtm.xml for R8qzT937Yl
+[INFO ] 2020-05-10 12:12:51.620 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : R8qzT937Yl
+[DEBUG] 2020-05-10 12:12:51.620 [main] RepositoryOfGarageXmlImpl - Garage R8qzT937Yl find
+[DEBUG] 2020-05-10 12:12:51.624 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 12:12:51.624 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 12:14:45.879 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 12:14:45.928 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 12:14:45.929 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 12:14:45.938 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 12:14:45.983 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 12:14:45.983 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 12:14:46.048 [main] DescriptionOfGaragesManager - New file iZ9lsQeUHpkYKHToEGAd.xml for dLSwqD0Ncd
+[INFO ] 2020-05-10 12:14:46.052 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : dLSwqD0Ncd
+[DEBUG] 2020-05-10 12:14:46.052 [main] RepositoryOfGarageXmlImpl - Garage dLSwqD0Ncd find
+[DEBUG] 2020-05-10 12:14:46.055 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 12:14:46.056 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 12:35:16.151 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-10 12:35:16.205 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-10 12:35:16.205 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-10 12:35:16.216 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-10 12:35:16.262 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-10 12:35:16.262 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 12:35:16.334 [main] DescriptionOfGaragesManager - New file mGo209J8JWhKOXTf1MkR.xml for ck55blMEUU
+[INFO ] 2020-05-10 12:35:16.338 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : ck55blMEUU
+[DEBUG] 2020-05-10 12:35:16.338 [main] RepositoryOfGarageXmlImpl - Garage ck55blMEUU find
+[DEBUG] 2020-05-10 12:35:16.342 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-10 12:35:16.342 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 12:57:18.081 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-11 12:57:18.273 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-11 12:57:18.273 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-11 12:57:18.296 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 12:57:18.426 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-11 12:57:18.426 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 12:57:18.573 [main] DescriptionOfGaragesManager - New file KkgoDzpEIqrfnPqsjaoM.xml for ZUAoLVDwUg
+[INFO ] 2020-05-11 12:57:18.582 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : ZUAoLVDwUg
+[DEBUG] 2020-05-11 12:57:18.582 [main] RepositoryOfGarageXmlImpl - Garage ZUAoLVDwUg find
+[DEBUG] 2020-05-11 12:57:18.591 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 12:57:18.591 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 13:49:44.000 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-11 13:49:44.103 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-11 13:49:44.103 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-11 13:49:44.120 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 13:49:44.200 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-11 13:49:44.200 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 13:49:44.339 [main] DescriptionOfGaragesManager - New file qGczDKKyuHVWQxUPv2et.xml for J1XAlCztQt
+[INFO ] 2020-05-11 13:49:44.347 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : J1XAlCztQt
+[DEBUG] 2020-05-11 13:49:44.347 [main] RepositoryOfGarageXmlImpl - Garage J1XAlCztQt find
+[DEBUG] 2020-05-11 13:49:44.354 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 13:49:44.354 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 13:57:29.399 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-11 13:57:29.511 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-11 13:57:29.511 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-11 13:57:29.530 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 13:57:29.629 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-11 13:57:29.630 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 13:57:29.768 [main] DescriptionOfGaragesManager - New file vniHRLAm8RIqXEHkS3Xj.xml for 3eVKrSw0bq
+[INFO ] 2020-05-11 13:57:29.777 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : 3eVKrSw0bq
+[DEBUG] 2020-05-11 13:57:29.778 [main] RepositoryOfGarageXmlImpl - Garage 3eVKrSw0bq find
+[DEBUG] 2020-05-11 13:57:29.785 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 13:57:29.785 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 14:10:30.722 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-11 14:10:30.824 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-11 14:10:30.824 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-11 14:10:30.844 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 14:10:30.924 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-11 14:10:30.925 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 14:10:31.061 [main] DescriptionOfGaragesManager - New file My6knNt5NPnhfaQ89gHz.xml for 5y89Fkxhos
+[INFO ] 2020-05-11 14:10:31.071 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : 5y89Fkxhos
+[DEBUG] 2020-05-11 14:10:31.071 [main] RepositoryOfGarageXmlImpl - Garage 5y89Fkxhos find
+[DEBUG] 2020-05-11 14:10:31.079 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 14:10:31.080 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 15:51:15.299 [main] XmlGarageProperties - file:/C:/Users/danie/.garage/garage_liste.xml
+[DEBUG] 2020-05-11 15:51:15.403 [main] DescriptionOfGaragesManager - List of XML Garage Description initialized
+[INFO ] 2020-05-11 15:51:15.404 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Create
+[DEBUG] 2020-05-11 15:51:15.422 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[INFO ] 2020-05-11 15:51:15.505 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : Garage 1
+[DEBUG] 2020-05-11 15:51:15.505 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 15:51:15.632 [main] DescriptionOfGaragesManager - New file xM3qOTTbF4Iosvz8xHEe.xml for 4IatT0YGW7
+[INFO ] 2020-05-11 15:51:15.640 [main] RepositoryOfGarageXmlImpl - RepositoryOfGarageXmlImpl Store : 4IatT0YGW7
+[DEBUG] 2020-05-11 15:51:15.641 [main] RepositoryOfGarageXmlImpl - Garage 4IatT0YGW7 find
+[DEBUG] 2020-05-11 15:51:15.647 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find
+[DEBUG] 2020-05-11 15:51:15.648 [main] RepositoryOfGarageXmlImpl - Garage Garage 1 find

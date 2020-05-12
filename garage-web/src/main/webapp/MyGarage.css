@@ -1,0 +1,15 @@
+p
+{
+    font-size: 14px; /* Paragraphes de 14 pixels */
+    color: blue;
+}
+h1
+{
+    font-size: 20px; /* Titres de 40 pixels */
+    color: black;
+}
+h2
+{
+    font-size: 10px; /* Titres de 40 pixels */
+    color: cyan;
+}
