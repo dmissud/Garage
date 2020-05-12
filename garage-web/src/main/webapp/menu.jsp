@@ -8,18 +8,9 @@
 </head>
 <body>
 <ol>
-    <%
-        Map<String, String> menu = (Map<String, String>) request.getAttribute("menu");
-        for (Map.Entry<String, String> menuItem : menu.entrySet()) {
-    %>
-    <li><a href=/garage-web<%
-        out.println(menuItem.getValue());
-    %>><%
-        out.println(menuItem.getKey());
-    %></a></li>
-    <%
-        }
-    %>
+<c:forEach items="${menu}" var="menuItem">
+    <li><a href=/garage-web${menuItem.value}>${menuItem.key}</a></li>
+</c:forEach>
 </ol>
 </body>
 </html>

@@ -12,47 +12,26 @@
     <title>Description des garages</title>
 </head>
 <body>
-<table style="width: 740px; height: 238px;" border="1">
+<table>
     <thead>
     <tr>
-        <th>Nom<br>
+        <th>Nom
         </th>
-        <th>Location<br>
+        <th>Location
         </th>
-        <th>Nombre de véhicule(s)<br>
+        <th>Nombre de véhicule(s)
         </th>
     </tr>
     </thead>
 
     <tbody>
-    <%
-        List<GarageDesc> lstDescGarage = (List<GarageDesc>) request.getAttribute("lstDescGarage");
-        for (GarageDesc garageDesc : lstDescGarage) {
-    %>
-    <tr>
-        <td>
-            <%
-                out.println(garageDesc.getName());
-            %>
-            <br>
-        </td>
-        <td>
-            <%
-                out.println(garageDesc.getLocation());
-            %>
-            <br>
-        </td>
-        <td>
-            <%
-                out.println(garageDesc.getNumberOfCars());
-            %>
-            <br>
-        </td>
-    </tr>
-
-    <%
-        }
-    %>
+    <c:forEach items="${lstDescGarage}" var="garageDesc">
+        <tr>
+            <td>${garageDesc.name}</td>
+            <td>${garageDesc.location}</td>
+            <td>${garageDesc.numberOfCars}</td>
+        </tr>
+    </c:forEach>
     </tbody>
 </table>
 </body>

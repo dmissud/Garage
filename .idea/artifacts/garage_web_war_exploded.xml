@@ -24,6 +24,7 @@
           <element id="archive" name="garage-memory-1.0-SNAPSHOT.jar">
             <element id="module-output" name="garage-memory" />
           </element>
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.13.2" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.13.2" />
         </element>

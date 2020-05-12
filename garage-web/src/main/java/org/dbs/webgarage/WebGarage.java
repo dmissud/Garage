@@ -14,6 +14,7 @@ public class WebGarage  extends HttpServlet {
         Map<String, String> menu = new HashMap<>();
         menu.put("A propos de MyGarage", "/about");
         menu.put("Supervision des Garages", "/Supervision");
+        menu.put("Création d'un Garage", "/CreateGarage");
         request.setAttribute("menu", menu);
         this.getServletContext().getRequestDispatcher("/menu.jsp").forward(request, response);
     }
