@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="garage-web" />
-        <module name="garage-line" />
-        <module name="garage-business" />
         <module name="garage-memory" />
+        <module name="garage-business" />
         <module name="garage-xml" />
+        <module name="sup-web" />
+        <module name="garage-line" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,8 +18,9 @@
       <module name="garage-business" target="1.8" />
       <module name="garage-line" target="1.8" />
       <module name="garage-memory" target="1.8" />
-      <module name="garage-web" target="1.8" />
       <module name="garage-xml" target="1.8" />
+      <module name="sup-web" target="1.8" />
+      <module name="superviseur-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

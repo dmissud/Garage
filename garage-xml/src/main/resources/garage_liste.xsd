@@ -4,7 +4,7 @@
 
     <xs:element name="garage">
         <xs:complexType>
-            <xs:attribute name="nom" type="xs:string" use="required"/>
+            <xs:attribute name="name" type="xs:string" use="required"/>
             <xs:attribute name="file" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>

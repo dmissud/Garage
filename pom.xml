@@ -12,7 +12,7 @@
         <module>garage-line</module>
         <module>garage-memory</module>
         <module>garage-xml</module>
-        <module>garage-web</module>
+        <module>sup-web</module>
     </modules>
     <packaging>pom</packaging>
 

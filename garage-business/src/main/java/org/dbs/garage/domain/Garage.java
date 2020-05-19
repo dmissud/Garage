@@ -1,23 +1,25 @@
 package org.dbs.garage.domain;
 
-import org.dbs.garage.application.service.ExceptionVehicleReference;
+import org.dbs.garage.usage.service.ExceptionVehicleReference;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
 
 public class Garage implements Comparable<Garage> {
-    private Map<String, Vehicle> vehicules;
-    private String name;
-    private String location;
+    private final Map<String, Vehicle> vehicules;
+    private final String name;
+    private String locationName;
 
-    public Garage(String nom, String location) {
-        this.name = nom;
-        this.location = location;
+    public Garage(String name, String locationName) {
+        this.name = name;
+        this.locationName = locationName;
         this.vehicules = new HashMap<>();
     }
 
     public Garage(Garage garage) {
         this.name = garage.getName();
-        this.location = garage.getLocation();
+        this.locationName = garage.getLocationName();
         this.vehicules = garage.giveLstVehicleInGarage();
     }
 
@@ -41,7 +43,7 @@ public class Garage implements Comparable<Garage> {
     public String toString() {
         return "Garage{" +
                 "nom='" + name + '\'' +
-                ", localisation='" + location + '\'' +
+                ", localisation='" + locationName + '\'' +
                 "\nvehicules =" + vehicules +
                 '}';
     }
@@ -52,19 +54,19 @@ public class Garage implements Comparable<Garage> {
         if (!(o instanceof Garage)) return false;
         Garage garage = (Garage) o;
         return name.equals(garage.name) &&
-                location.equals(garage.location);
+                locationName.equals(garage.locationName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(vehicules, name, location);
+        return Objects.hash(vehicules, name, locationName);
     }
 
     @Override
     public int compareTo(Garage garage) {
         if (this == garage) return 0;
-        if (!location.equals(garage.location)) {
-            return location.compareTo(garage.location);
+        if (!locationName.equals(garage.locationName)) {
+            return locationName.compareTo(garage.locationName);
         } else {
             return name.compareTo(garage.name);
         }
@@ -74,15 +76,15 @@ public class Garage implements Comparable<Garage> {
         return name;
     }
 
-    public String getLocation() {
-        return location;
+    public String getLocationName() {
+        return locationName;
     }
 
     public int giveNumberOfVehicule() {
         return this.vehicules.size();
     }
 
-    public void changeLocation(String newLocation) {
-        this.location = newLocation;
+    public void changeLocation(Location newLocation) {
+        this.locationName = newLocation.getName();
     }
 }

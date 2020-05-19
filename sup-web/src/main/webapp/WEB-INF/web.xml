@@ -1,0 +1,70 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <display-name>Garages</display-name>
+  <servlet>
+    <servlet-name>doMenuGarage</servlet-name>
+    <servlet-class>org.dbs.garage.web.DoMenuGarage</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>doMenuGarage</servlet-name>
+    <url-pattern>/doMenuGarage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>doSupervision</servlet-name>
+    <servlet-class>org.dbs.garage.web.DoSupervision</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>doSupervision</servlet-name>
+    <url-pattern>/doSupervision</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>doAbout</servlet-name>
+    <servlet-class>org.dbs.garage.web.DoAbout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>doAbout</servlet-name>
+    <url-pattern>/doAbout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>doCreateGarage</servlet-name>
+    <servlet-class>org.dbs.garage.web.DoCreateGarage</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>doCreateGarage</servlet-name>
+    <url-pattern>/doCreateGarage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>doDeleteGarage</servlet-name>
+    <servlet-class>org.dbs.garage.web.DoDeleteGarage</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>doDeleteGarage</servlet-name>
+    <url-pattern>/doDeleteGarage</url-pattern>
+  </servlet-mapping>
+
+  <listener>
+    <listener-class>org.dbs.garage.web.DependencyInjectionListener</listener-class>
+  </listener>
+
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+    </jsp-property-group>
+  </jsp-config>
+</web-app>

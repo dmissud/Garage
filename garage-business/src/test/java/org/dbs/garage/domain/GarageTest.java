@@ -1,6 +1,6 @@
 package org.dbs.garage.domain;
 
-import org.dbs.garage.application.service.ExceptionVehicleReference;
+import org.dbs.garage.usage.service.ExceptionVehicleReference;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

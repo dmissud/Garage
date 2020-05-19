@@ -1,29 +1,37 @@
-[INFO ] 2020-05-08 10:53:02.440 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-08 12:49:09.987 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-08 12:51:01.755 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-09 11:59:31.021 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:24:37.085 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:26:33.410 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:26:55.347 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:28:08.691 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:28:50.267 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:32:14.357 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:32:29.637 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:48:06.115 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:49:23.909 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:49:48.924 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:51:56.826 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 10:59:52.419 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 11:05:17.208 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 11:22:18.464 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 11:24:01.529 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 11:30:32.267 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 12:04:45.862 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 12:12:53.322 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 12:14:47.755 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-10 12:35:18.050 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-11 12:57:21.805 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-11 13:49:47.485 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-11 13:57:32.931 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-11 14:10:34.026 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
-[INFO ] 2020-05-11 15:51:18.733 [main] MainTest - org.dbs.garage.application.port.out.UnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-08 10:53:02.440 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-08 12:49:09.987 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-08 12:51:01.755 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-09 11:59:31.021 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:24:37.085 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:26:33.410 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:26:55.347 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:28:08.691 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:28:50.267 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:32:14.357 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:32:29.637 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:48:06.115 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:49:23.909 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:49:48.924 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:51:56.826 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 10:59:52.419 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 11:05:17.208 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 11:22:18.464 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 11:24:01.529 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 11:30:32.267 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 12:04:45.862 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 12:12:53.322 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 12:14:47.755 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-10 12:35:18.050 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-11 12:57:21.805 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-11 13:49:47.485 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-11 13:57:32.931 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-11 14:10:34.026 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-11 15:51:18.733 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[INFO ] 2020-05-15 10:34:17.892 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[ERROR] 2020-05-15 10:34:17.894 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowLocation: Location UnknowLocation 1
+[INFO ] 2020-05-15 10:35:28.743 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowGarage 10
+[ERROR] 2020-05-15 10:35:28.744 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowLocation: Location UnknowLocation 1
+[INFO ] 2020-05-15 11:47:28.071 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowsukHY8JHE5
+[INFO ] 2020-05-15 11:47:35.517 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowTadTsoCOQB
+[INFO ] 2020-05-15 11:48:32.939 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowLZPZx6h2Bt
+[INFO ] 2020-05-15 14:33:29.452 [main] MainTest - org.dbs.garage.usage.port.out.ExUnknowGarage: garage UnknowdUSu4ybQUz
