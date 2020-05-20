@@ -1,7 +1,7 @@
 <%@ page import="java.util.Map" %>
 <%@ page pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="utf-8"/>
     <title>Fonctionnalité de MyGarage</title>

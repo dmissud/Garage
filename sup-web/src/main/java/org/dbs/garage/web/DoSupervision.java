@@ -11,6 +11,8 @@ import java.util.List;
 
 @WebServlet(name = "Supervision")
 public class DoSupervision extends GarageAbstractServlet {
+
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
@@ -19,6 +21,6 @@ public class DoSupervision extends GarageAbstractServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<GarageDesc> lstDescGarage = getServicefactory().getConsultGarageStock().retrieveSupervisionOfGarage();
         request.setAttribute("lstDescGarage", lstDescGarage);
-        this.getServletContext().getRequestDispatcher("/listDescOfGarage.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/listDescOfGarage.jsp").forward(request, response);
     }
 }

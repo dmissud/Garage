@@ -25,7 +25,7 @@ public class DoCreateGarage extends GarageAbstractServlet {
         }
         List<GarageDesc> lstDescGarage = getServicefactory().getConsultGarageStock().retrieveSupervisionOfGarage();
         request.setAttribute("lstDescGarage", lstDescGarage);
-        this.getServletContext().getRequestDispatcher("/listDescOfGarage.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/listDescOfGarage.jsp").forward(request, response);
     }
 
     private void createAGarage(String name, String location) {
@@ -51,6 +51,6 @@ public class DoCreateGarage extends GarageAbstractServlet {
         List<LocationDesc> lstDescLocation =
                 getServicefactory().getConsultLocationStock().retrieveSupervisionOfLocation();
         request.setAttribute("lstDescLocation", lstDescLocation);
-        this.getServletContext().getRequestDispatcher("/createAGarage.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/createAGarage.jsp").forward(request, response);
     }
 }

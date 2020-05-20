@@ -26,7 +26,7 @@ public class DoDeleteGarage extends GarageAbstractServlet {
         List<GarageDesc> lstDescGarage =
                 getServicefactory().getConsultGarageStock().retrieveSupervisionOfGarage();
         request.setAttribute("lstDescGarage", lstDescGarage);
-        this.getServletContext().getRequestDispatcher("/listDescOfGarage.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/listDescOfGarage.jsp").forward(request, response);
     }
 
     private void unregisterAGarage(String garageName) {
@@ -43,6 +43,6 @@ public class DoDeleteGarage extends GarageAbstractServlet {
         List<GarageDesc> lstDescGarage =
                 getServicefactory().getConsultGarageStock().retrieveGarageWithLowStock(0);
         request.setAttribute("lstDescGarage", lstDescGarage);
-        this.getServletContext().getRequestDispatcher("/deleteGarages.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/deleteGarages.jsp").forward(request, response);
     }
 }

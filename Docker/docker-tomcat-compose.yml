@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  dbs.rest.garages:
+    image: tomcat:9.0-jdk8-adoptopenjdk-hotspot
+    volumes:
+      - "../sup-web/target/sup-web:/usr/local/tomcat/webapp/Superviseur"
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      - CATALINA_OPTS=-agentlib:jdwp\=transport\=dt_socket,server\=y,suspend\=n,address\=5005

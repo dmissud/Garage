@@ -16,7 +16,7 @@ public class DoMenuGarage extends GarageAbstractServlet {
         menu.put("Enregistrement d'un Garage", "/doCreateGarage");
         menu.put("Dé-enregistrement de Garage", "/doDeleteGarage");
         request.setAttribute("menu", menu);
-        this.getServletContext().getRequestDispatcher("/menu.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/menu.jsp").forward(request, response);
     }
 
     @Override
