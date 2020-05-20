@@ -32,17 +32,17 @@ import java.util.List;
 import java.util.Map;
 
 
-public class DescriptionOfGaragesManager {
+public class DaoXmlDescriptionOfGarages {
     public static final String NUMBER_OF_GARAGE = "numberOfGarage";
     public static final String NOM = "name";
     public static final String FILE = "file";
-    private static final Logger logger = LogManager.getLogger(DescriptionOfGaragesManager.class);
+    private static final Logger logger = LogManager.getLogger(DaoXmlDescriptionOfGarages.class);
 
     private Document xmlDocListGarage;
     private Element elementXMLGarages;
     private final Map<String, String> mapOfGarages;
 
-    DescriptionOfGaragesManager() {
+    DaoXmlDescriptionOfGarages() {
         this.mapOfGarages = new HashMap<>();
         load();
     }
@@ -81,7 +81,7 @@ public class DescriptionOfGaragesManager {
             this.elementXMLGarages.setAttribute(NUMBER_OF_GARAGE, String.valueOf(this.mapOfGarages.size()));
             this.xmlDocListGarage.appendChild(this.elementXMLGarages);
             this.xmlDocListGarage.createComment(
-                    String.format("Generate by %s",DescriptionOfGaragesManager.class.getName()));
+                    String.format("Generate by %s", DaoXmlDescriptionOfGarages.class.getName()));
 
             for(Map.Entry<String, String> entryGarage:this.mapOfGarages.entrySet()) {
                 final Element xmlGarage = this.xmlDocListGarage.createElement("garage");

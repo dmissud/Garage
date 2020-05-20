@@ -19,7 +19,9 @@ public class DoSupervision extends GarageAbstractServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<GarageDesc> lstDescGarage = getServicefactory().getConsultGarageStock().retrieveSupervisionOfGarage();
+        List<GarageDesc> lstDescGarage;
+        lstDescGarage = getServicefactory().getConsultGarageStock().retrieveSupervisionOfGarage();
+
         request.setAttribute("lstDescGarage", lstDescGarage);
         this.getServletContext().getRequestDispatcher("/WEB-INF/listDescOfGarage.jsp").forward(request, response);
     }

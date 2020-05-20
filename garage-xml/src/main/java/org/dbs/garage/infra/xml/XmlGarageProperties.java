@@ -52,7 +52,7 @@ public class XmlGarageProperties {
 
     private void loadProperties() {
         ClassLoader classLoader =
-                DescriptionOfGaragesManager.class.getClassLoader();
+                DaoXmlDescriptionOfGarages.class.getClassLoader();
         this.garageListeXSD = classLoader.getResource(DATA_GARAGE_LISTE_XSD);
         this.garageXSD = classLoader.getResource(DATA_GARAGE_XSD);
         this.locationListeXSD = classLoader.getResource(DATA_LOCATION_LISTE_XSD);
@@ -84,7 +84,7 @@ public class XmlGarageProperties {
         try {
 
             ClassLoader classLoader =
-                    DescriptionOfGaragesManager.class.getClassLoader();
+                    DaoXmlDescriptionOfGarages.class.getClassLoader();
 
             InputStream propertiesStream = classLoader.getResourceAsStream(GARAGE_XML_PROPERTIES);
 

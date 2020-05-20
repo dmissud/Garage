@@ -1,5 +1,7 @@
 package org.dbs.garage.web;
 
+import org.dbs.garage.infra.memory.RepositoryOfGarageMemoryImpl;
+import org.dbs.garage.infra.memory.RepositoryOfLocationMemoryImpl;
 import org.dbs.garage.infra.xml.RepositoryOfGarageXmlImpl;
 import org.dbs.garage.infra.xml.RepositoryOfLocationXmlImpl;
 import org.dbs.garage.usage.service.ConsultGarageStockImpl;

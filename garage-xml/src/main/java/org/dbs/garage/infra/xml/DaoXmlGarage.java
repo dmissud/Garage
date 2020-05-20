@@ -33,8 +33,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Map;
 
-public class GarageXMLManager {
-    private static final Logger logger = LogManager.getLogger(GarageXMLManager.class);
+public class DaoXmlGarage {
+    private static final Logger logger = LogManager.getLogger(DaoXmlGarage.class);
     private static final String NUMBER_OF_VEHICLE = "numberOfVehicle";
     private static final String NAME_OF_GARAGE = "nom";
     private static final String LOCATION_OF_GARAGE = "location";
@@ -47,14 +47,14 @@ public class GarageXMLManager {
     private Element xmlGarage;
     private Garage garage;
 
-    GarageXMLManager(Garage garage, String garageFileName) {
+    DaoXmlGarage(Garage garage, String garageFileName) {
         this.garageFileName = garageFileName;
         this.garage = new Garage(garage);
         XPathFactory xpf = XPathFactory.newInstance();
         this.path = xpf.newXPath();
     }
 
-    GarageXMLManager(String garageFileName) {
+    DaoXmlGarage(String garageFileName) {
         this.garageFileName = garageFileName;
         this.garage = null;
 
@@ -72,13 +72,13 @@ public class GarageXMLManager {
         this.xmlGarage = this.xmlDocGarage.getDocumentElement();
         NamedNodeMap lstAttributesOfElementGarages = this.xmlGarage.getAttributes();
 
-        Node attributValue = lstAttributesOfElementGarages.getNamedItem(GarageXMLManager.NUMBER_OF_VEHICLE);
+        Node attributValue = lstAttributesOfElementGarages.getNamedItem(DaoXmlGarage.NUMBER_OF_VEHICLE);
         int nbVehicle = Integer.parseInt(attributValue.getTextContent());
 
-        attributValue = lstAttributesOfElementGarages.getNamedItem(GarageXMLManager.NAME_OF_GARAGE);
+        attributValue = lstAttributesOfElementGarages.getNamedItem(DaoXmlGarage.NAME_OF_GARAGE);
         String nom = attributValue.getTextContent();
 
-        attributValue = lstAttributesOfElementGarages.getNamedItem(GarageXMLManager.LOCATION_OF_GARAGE);
+        attributValue = lstAttributesOfElementGarages.getNamedItem(DaoXmlGarage.LOCATION_OF_GARAGE);
         String location = attributValue.getTextContent();
 
         this.garage = new Garage(nom, location);
@@ -146,7 +146,7 @@ public class GarageXMLManager {
             this.xmlGarage.setAttribute(LOCATION_OF_GARAGE, garage.getLocationName());
             this.xmlGarage.setAttribute(NUMBER_OF_VEHICLE, String.valueOf(garage.giveNumberOfVehicule()));
             this.xmlDocGarage.appendChild(this.xmlGarage);
-            this.xmlDocGarage.createComment(String.format("Generate by %s",GarageXMLManager.class.getName()));
+            this.xmlDocGarage.createComment(String.format("Generate by %s", DaoXmlGarage.class.getName()));
 
             Map<String, Vehicle> vehicles = this.garage.giveLstVehicleInGarage();
             for(Vehicle vehicle:vehicles.values()) {

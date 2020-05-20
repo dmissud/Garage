@@ -102,8 +102,6 @@ Q
 !sup-web/src/main/webapp/test.html,f\6\f66b23fb3a72ff659f968739a717713dc834ceec
 W
 'sup-web/src/main/webapp/WEB-INF/web.xml,8\1\818703c4fbe0553d49ccf3f05df9ddea0fe69f37
-P
- sup-web/src/main/webapp/menu.jsp,1\8\18c7ecd3546e52df58600caeaa6fdc48499e9044
 l
 <sup-web/src/main/java/org/dbs/garage/web/DoCreateGarage.java,4\e\4e7e01a1a72ce4e3847f16b6fec1982804cd8370
 j
@@ -112,10 +110,6 @@ z
 Jgarage-xml/src/main/java/org/dbs/garage/infra/xml/XmlGarageProperties.java,2\b\2b25ae75377ef80867d1a6b9b4536234ce0305a6
 Q
 !sup-web/src/main/webapp/index.jsp,1\9\19e903e525765df4436bc2e72b838de3d39e212d
-Y
-)sup-web/src/main/webapp/createAGarage.jsp,9\2\92cba8b1fd1405c63c4ed50ee394f369ea13dceb
-\
-,sup-web/src/main/webapp/listDescOfGarage.jsp,8\1\81419da469712d0e3aeaada1779dddf458a82707
 T
 $sup-web/src/main/webapp/MyGarage.css,c\e\cedb54bde879c3fb9a108c62cd5061dbcf9b7dd4
 ‚
@@ -138,8 +132,6 @@ Qgarage-business/src/main/java/org/dbs/garage/usage/port/in/RegisterGarageCmd.ja
 Pgarage-xml/src/main/java/org/dbs/garage/infra/xml/RepositoryOfGarageXmlImpl.java,5\7\57255fb2e723aa7fb8b88df1146cd1be441ac85f
 †
 Vgarage-business/src/main/java/org/dbs/garage/usage/service/ConsultGarageStockImpl.java,0\3\0333daf136c8d431da5de732ddb1309016051439
-Y
-)sup-web/src/main/webapp/deleteGarages.jsp,7\1\7166f27b46b9324ded6ae0c9db3b9d85811303af
 
 Qgarage-business/src/main/java/org/dbs/garage/usage/port/out/ExUnknowLocation.java,6\9\69b9acbf2841fc8aa9be06af89e407efc9f26389
 l
@@ -212,3 +204,11 @@ P
  Docker/docker-tomcat-compose.yml,b\c\bca5d7692a07e01885e4caf01026c1764592e1f3
 L
 Docker/docker-bd-compose.yml,c\8\c8fb492e6818876efa6f7b9641bd2e6cb3c7a67e
+a
+1sup-web/src/main/webapp/WEB-INF/createAGarage.jsp,3\b\3bb30ef5c27710890d90dc3e37090c759fdbb436
+a
+1sup-web/src/main/webapp/WEB-INF/deleteGarages.jsp,8\3\83a46b0e9a85175499b4ad1c3235b0a3fa9c9b9a
+d
+4sup-web/src/main/webapp/WEB-INF/listDescOfGarage.jsp,c\7\c71b21502b29c235fd2eaeeb8cdda48d5df61592
+X
+(sup-web/src/main/webapp/WEB-INF/menu.jsp,5\4\54be39f7b48462ab1ef8209dd5e2a56348d84e75

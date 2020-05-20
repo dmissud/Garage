@@ -3,7 +3,7 @@ package org.dbs.garage.infra.xml;
 public class XMLDescOfGarage {
     private final String name;
     private final String fileName;
-    private GarageXMLManager garageXMLLoader = null;
+    private DaoXmlGarage garageXMLLoader = null;
 
     public XMLDescOfGarage(String name, String fileName) {
         this.name = name;
@@ -17,11 +17,11 @@ public class XMLDescOfGarage {
         return fileName;
     }
 
-    public GarageXMLManager getGarageXMLLoader() {
+    public DaoXmlGarage getGarageXMLLoader() {
         return this.garageXMLLoader;
     }
 
-    public void setGarageXMLLoader(GarageXMLManager garageXMLLoader) {
+    public void setGarageXMLLoader(DaoXmlGarage garageXMLLoader) {
         this.garageXMLLoader = garageXMLLoader;
     }
 

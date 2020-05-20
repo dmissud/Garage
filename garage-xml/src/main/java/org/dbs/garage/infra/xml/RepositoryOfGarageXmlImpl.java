@@ -15,12 +15,12 @@ public class RepositoryOfGarageXmlImpl implements IRepositoryOfGarage {
 
     private static RepositoryOfGarageXmlImpl repositoryOfGarageXml = null;
     private static final Logger logger = LogManager.getLogger(RepositoryOfGarageXmlImpl.class);
-    private final DescriptionOfGaragesManager descriptionOfGaragesManager;
-    private final Map<String, GarageXMLManager> mapOfGarageXMLManager;
+    private final DaoXmlDescriptionOfGarages daoXmlDescriptionOfGarages;
+    private final Map<String, DaoXmlGarage> mapOfGarageXMLManager;
 
 
     private RepositoryOfGarageXmlImpl() {
-        descriptionOfGaragesManager = new DescriptionOfGaragesManager();
+        daoXmlDescriptionOfGarages = new DaoXmlDescriptionOfGarages();
         mapOfGarageXMLManager = new HashMap<>();
         logger.info("RepositoryOfGarageXmlImpl Create");
     }
@@ -34,32 +34,32 @@ public class RepositoryOfGarageXmlImpl implements IRepositoryOfGarage {
 
 
     public Garage retrieveGarageByName(String garageName) throws ExUnknowGarage {
-        GarageXMLManager garageXMLManager = mapOfGarageXMLManager.get(garageName);
-        if (garageXMLManager == null) {
-            garageXMLManager = buildGarageXMLManager(garageName);
+        DaoXmlGarage daoXmlGarage = mapOfGarageXMLManager.get(garageName);
+        if (daoXmlGarage == null) {
+            daoXmlGarage = buildGarageXMLManager(garageName);
         }
         logger.debug(String.format("Garage %s find", garageName));
 
-        return new Garage(garageXMLManager.getGarage());
+        return new Garage(daoXmlGarage.getGarage());
     }
 
-    private GarageXMLManager buildGarageXMLManager(String garageName) throws ExUnknowGarage {
-        GarageXMLManager garageXMLManager;
-        String fileNameForAGarage = this.descriptionOfGaragesManager.retrieveFileNameForGarageByName(garageName);
+    private DaoXmlGarage buildGarageXMLManager(String garageName) throws ExUnknowGarage {
+        DaoXmlGarage daoXmlGarage;
+        String fileNameForAGarage = this.daoXmlDescriptionOfGarages.retrieveFileNameForGarageByName(garageName);
         if (fileNameForAGarage == null) {
             logger.debug(String.format("Unknow Garage %s", garageName));
             throw new ExUnknowGarage(garageName);
         }
-        garageXMLManager = new GarageXMLManager(fileNameForAGarage);
-        this.mapOfGarageXMLManager.put(garageName, garageXMLManager);
-        return garageXMLManager;
+        daoXmlGarage = new DaoXmlGarage(fileNameForAGarage);
+        this.mapOfGarageXMLManager.put(garageName, daoXmlGarage);
+        return daoXmlGarage;
     }
 
     public List<String> retrieveNameOfGarageByLocation(String locationName) {
         List<String> lstNameGarageAtLocation = new ArrayList<>();
         for (String nameGarage : this.retrieveNameOfAllGarage()) {
-            GarageXMLManager garageXMLManager = mapOfGarageXMLManager.get(nameGarage);
-            if (locationName.equals(garageXMLManager.retrieveLocationName())) {
+            DaoXmlGarage daoXmlGarage = mapOfGarageXMLManager.get(nameGarage);
+            if (locationName.equals(daoXmlGarage.retrieveLocationName())) {
                 lstNameGarageAtLocation.add(nameGarage);
             }
         }
@@ -67,34 +67,34 @@ public class RepositoryOfGarageXmlImpl implements IRepositoryOfGarage {
     }
 
     public List<String> retrieveNameOfAllGarage() {
-        return (this.descriptionOfGaragesManager.retrieveNameOfAllgarage());
+        return (this.daoXmlDescriptionOfGarages.retrieveNameOfAllgarage());
     }
 
     @Override
     public void store(Garage garage) {
-        GarageXMLManager garageXMLManager = mapOfGarageXMLManager.get(garage.getName());
-        if (garageXMLManager == null) {
-            String fileName = this.descriptionOfGaragesManager.addGarage(garage.getName());
-            garageXMLManager = new GarageXMLManager(garage, fileName);
-            this.mapOfGarageXMLManager.put(garage.getName(), garageXMLManager);
+        DaoXmlGarage daoXmlGarage = mapOfGarageXMLManager.get(garage.getName());
+        if (daoXmlGarage == null) {
+            String fileName = this.daoXmlDescriptionOfGarages.addGarage(garage.getName());
+            daoXmlGarage = new DaoXmlGarage(garage, fileName);
+            this.mapOfGarageXMLManager.put(garage.getName(), daoXmlGarage);
         }
-        garageXMLManager.store(garage);
-        descriptionOfGaragesManager.store();
+        daoXmlGarage.store(garage);
+        daoXmlDescriptionOfGarages.store();
 
         logger.info(String.format("RepositoryOfGarageXmlImpl Store : %s", garage.getName()));
     }
 
     @Override
     public void delete(Garage garage) throws ExUnknowGarage {
-        GarageXMLManager garageXMLManager = mapOfGarageXMLManager.get(garage.getName());
-        if (garageXMLManager == null) {
+        DaoXmlGarage daoXmlGarage = mapOfGarageXMLManager.get(garage.getName());
+        if (daoXmlGarage == null) {
             throw new ExUnknowGarage(garage.getName());
         }
         mapOfGarageXMLManager.remove(garage.getName());
-        String result = this.descriptionOfGaragesManager.removeGarage(garage.getName());
+        String result = this.daoXmlDescriptionOfGarages.removeGarage(garage.getName());
         if (result != null) {
-            garageXMLManager.deleteXmlFile();
-            this.descriptionOfGaragesManager.store();
+            daoXmlGarage.deleteXmlFile();
+            this.daoXmlDescriptionOfGarages.store();
         } else {
             logger.error(
                     String.format("pas present dans la liste donc destruction impossible de %s", garage.getName()));
