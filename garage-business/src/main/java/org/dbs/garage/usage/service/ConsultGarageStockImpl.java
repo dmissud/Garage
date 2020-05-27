@@ -11,11 +11,19 @@ import java.util.List;
 import java.util.Map;
 
 public class ConsultGarageStockImpl implements IConsultGarageStock {
-    private final IRepositoryOfGarage repositoryOfGarage;
+    private IRepositoryOfGarage repositoryOfGarage;
 
     private static final Logger logger = LogManager.getLogger(ConsultGarageStockImpl.class);
 
     public ConsultGarageStockImpl(IRepositoryOfGarage repositoryOfGarage) {
+        this.repositoryOfGarage = repositoryOfGarage;
+    }
+
+    public ConsultGarageStockImpl() {
+        super();
+    }
+
+    public void setRepositoryOfGarage(IRepositoryOfGarage repositoryOfGarage) {
         this.repositoryOfGarage = repositoryOfGarage;
     }
 

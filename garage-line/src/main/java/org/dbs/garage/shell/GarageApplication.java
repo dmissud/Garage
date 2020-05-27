@@ -2,22 +2,20 @@ package org.dbs.garage.shell;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.dbs.garage.domain.Marque;
+import org.dbs.garage.usage.port.in.IManageGarageStock;
+import org.dbs.garage.usage.port.in.RegisterVehicleCmd;
+import org.dbs.garage.usage.port.out.GarageDesc;
+import org.dbs.garage.usage.port.out.IConsultGarageStock;
+import org.dbs.garage.usage.service.ServiceFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-
-import org.dbs.garage.usage.port.in.IManageGarageStock;
-import org.dbs.garage.usage.port.out.IConsultGarageStock;
-import org.dbs.garage.usage.service.ConsultGarageStockImpl;
-import org.dbs.garage.usage.service.ManageGarageStockImpl;
-import org.dbs.garage.usage.port.out.GarageDesc;
-import org.dbs.garage.usage.port.in.RegisterVehicleCmd;
-import org.dbs.garage.domain.Marque;
-import org.dbs.garage.infra.xml.RepositoryOfGarageXmlImpl;
-import org.dbs.garage.infra.xml.RepositoryOfLocationXmlImpl;
 
 public class GarageApplication {
     private TextMenu rootMenu;
@@ -94,8 +92,14 @@ public class GarageApplication {
     }
 
     private void linkComponentOfApplication() {
-        consultGarageStock = new ConsultGarageStockImpl(RepositoryOfGarageXmlImpl.getInstance());
-        enrichGarageStock = new ManageGarageStockImpl(RepositoryOfGarageXmlImpl.getInstance(),
-                RepositoryOfLocationXmlImpl.getInstance());
+        ApplicationContext vApplicationContext
+                = new ClassPathXmlApplicationContext("classpath:/applicationContext.xml");
+
+        // Il est possible de récupérer un bean dans ce contexte :
+        ServiceFactory vServiceFactory
+                = vApplicationContext.getBean("serviceFactory", ServiceFactory.class);
+
+        consultGarageStock = vServiceFactory.getConsultGarageStock();
+        enrichGarageStock = vServiceFactory.getEnrichGarageStock();
     }
 }

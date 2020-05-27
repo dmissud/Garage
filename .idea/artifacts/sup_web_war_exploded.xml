@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sup-web:war exploded">
+    <output-path>$PROJECT_DIR$/sup-web/target/sup-web</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>sup-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sup-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="garage-business-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="garage-business" />
+          </element>
+          <element id="archive" name="garage-xml-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="garage-xml" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.8.1" />
+          <element id="archive" name="garage-memory-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="garage-memory" />
+          </element>
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.13.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.13.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/sup-web/target/sup-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sup-web/web/Web" />
+    </root>
+  </artifact>
+</component>

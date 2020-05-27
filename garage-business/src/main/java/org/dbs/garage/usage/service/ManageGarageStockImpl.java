@@ -15,14 +15,19 @@ import java.util.List;
 
 public class ManageGarageStockImpl implements IManageGarageStock {
 
-    private final IRepositoryOfGarage repositoryOfGarage;
-    private final IRepositoryOfLocation repositoryOfLocation;
+    private IRepositoryOfGarage repositoryOfGarage;
+    private IRepositoryOfLocation repositoryOfLocation;
 
     private static final Logger logger = LogManager.getLogger(ManageGarageStockImpl.class);
+
     public ManageGarageStockImpl(IRepositoryOfGarage repositoryOfGarage,
                                  IRepositoryOfLocation repositoryOfLocation) {
         this.repositoryOfGarage = repositoryOfGarage;
         this.repositoryOfLocation = repositoryOfLocation;
+    }
+
+    public ManageGarageStockImpl() {
+        super();
     }
 
     @Override
@@ -37,6 +42,14 @@ public class ManageGarageStockImpl implements IManageGarageStock {
                 logger.error(ex);
             }
         }
+    }
+
+    public void setRepositoryOfGarage(IRepositoryOfGarage repositoryOfGarage) {
+        this.repositoryOfGarage = repositoryOfGarage;
+    }
+
+    public void setRepositoryOfLocation(IRepositoryOfLocation repositoryOfLocation) {
+        this.repositoryOfLocation = repositoryOfLocation;
     }
 
     @Override

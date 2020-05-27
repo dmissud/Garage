@@ -4,19 +4,19 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.RandomUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.dbs.garage.domain.Marque;
+import org.dbs.garage.infra.memory.RepositoryOfGarageMemoryImpl;
+import org.dbs.garage.infra.memory.RepositoryOfLocationMemoryImpl;
 import org.dbs.garage.usage.port.in.IManageGarageStock;
 import org.dbs.garage.usage.port.in.RegisterGarageCmd;
 import org.dbs.garage.usage.port.in.RegisterVehicleCmd;
 import org.dbs.garage.usage.port.out.*;
-import org.dbs.garage.usage.service.ConsultGarageStockImpl;
-import org.dbs.garage.usage.service.ConsultLocationStockImpl;
-import org.dbs.garage.usage.service.ManageGarageStockImpl;
-import org.dbs.garage.domain.Marque;
-import org.dbs.garage.infra.memory.RepositoryOfGarageMemoryImpl;
-import org.dbs.garage.infra.memory.RepositoryOfLocationMemoryImpl;
+import org.dbs.garage.usage.service.ServiceFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -98,15 +98,22 @@ class MainTest {
 
     @BeforeEach
     private void linkComponentOfApplication() {
-        RepositoryOfGarageMemoryImpl repositoryOfGarageMemory =
-                (RepositoryOfGarageMemoryImpl) RepositoryOfGarageMemoryImpl.getInstance();
+        ApplicationContext vApplicationContext
+                = new ClassPathXmlApplicationContext("classpath:/applicationContext.xml");
+
+        RepositoryOfGarageMemoryImpl repositoryOfGarageMemory  =
+                vApplicationContext.getBean("garageRepositoryTest", RepositoryOfGarageMemoryImpl.class);
         repositoryOfGarageMemory.initialize();
-        RepositoryOfLocationMemoryImpl repositoryOfLocationMemory =
-                (RepositoryOfLocationMemoryImpl) RepositoryOfLocationMemoryImpl.getInstance();
+
+        RepositoryOfLocationMemoryImpl repositoryOfLocationMemory  =
+                vApplicationContext.getBean("locationRepositoryTest", RepositoryOfLocationMemoryImpl.class);
         repositoryOfLocationMemory.initialize();
-        consultGarageStock = new ConsultGarageStockImpl(repositoryOfGarageMemory);
-        enrichGarageStock = new ManageGarageStockImpl(repositoryOfGarageMemory, repositoryOfLocationMemory);
-        consultLocationStock = new ConsultLocationStockImpl(repositoryOfLocationMemory);
+
+        ServiceFactory vServiceFactory
+                = vApplicationContext.getBean("serviceFactoryTest", ServiceFactory.class);
+        consultGarageStock = vServiceFactory.getConsultGarageStock();
+        enrichGarageStock = vServiceFactory.getEnrichGarageStock();
+        consultLocationStock = vServiceFactory.getConsultLocationStock();
     }
 
 }

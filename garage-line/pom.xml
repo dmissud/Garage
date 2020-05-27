@@ -19,6 +19,10 @@
 
     <!-- ===== Informations générales ===== -->
     <name>${projectName} - Cmd line</name>
+    <description>
+        Application en ligne de commande.
+        Implémentation des cas de tests de bout bout
+    </description>
 
     <properties>
         <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}
@@ -43,14 +47,26 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>garage-xml</artifactId>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>garage-technical</artifactId>
+        </dependency>
 
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
+            <artifactId>log4j-jcl</artifactId>
         </dependency>
 
 

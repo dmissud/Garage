@@ -12,6 +12,9 @@
     <artifactId>garage-memory</artifactId>
 
     <name>Garage persitant memory</name>
+    <description>
+        Repository en memoire pour les garages.
+    </description>
 
     <properties>
         <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}
@@ -19,19 +22,32 @@
     </properties>
 
     <dependencies>
+        <!-- ===== Modules ===== -->
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>garage-business</artifactId>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>garage-technical</artifactId>
+        </dependency>
 
         <!-- ===== Bibliothèques tierces ===== -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
+            <artifactId>log4j-jcl</artifactId>
         </dependency>
 
         <dependency>

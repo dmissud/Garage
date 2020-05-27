@@ -11,9 +11,18 @@ import java.util.List;
 public class ConsultLocationStockImpl implements IConsultLocationStock {
 
     private static final Logger logger = LogManager.getLogger(ConsultLocationStockImpl.class);
-    private final IRepositoryOfLocation repositoryOfLocation;
+
+    private IRepositoryOfLocation repositoryOfLocation;
 
     public ConsultLocationStockImpl(IRepositoryOfLocation repositoryOfLocation) {
+        this.repositoryOfLocation = repositoryOfLocation;
+    }
+
+    public ConsultLocationStockImpl() {
+        super();
+    }
+
+    public void setRepositoryOfLocation(IRepositoryOfLocation repositoryOfLocation) {
         this.repositoryOfLocation = repositoryOfLocation;
     }
 

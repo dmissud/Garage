@@ -19,6 +19,9 @@
 
     <!-- ===== Informations générales ===== -->
     <name>${projectName} - Business</name>
+    <description>
+        Parties Usage de Domain du métier gestion d'un regroupement de garage.
+    </description>
 
     <properties>
         <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}
@@ -26,14 +29,28 @@
     </properties>
 
     <dependencies>
+        <!-- ===== Modules ===== -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>garage-technical</artifactId>
+        </dependency>
+
         <!-- ===== Bibliothèques tierces ===== -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
+            <artifactId>log4j-jcl</artifactId>
         </dependency>
 
         <dependency>
