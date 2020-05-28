@@ -93,7 +93,7 @@ public class GarageApplication {
 
     private void linkComponentOfApplication() {
         ApplicationContext vApplicationContext
-                = new ClassPathXmlApplicationContext("classpath:/applicationContext.xml");
+                = new ClassPathXmlApplicationContext("classpath:/bootstrapContext.xml");
 
         // Il est possible de récupérer un bean dans ce contexte :
         ServiceFactory vServiceFactory

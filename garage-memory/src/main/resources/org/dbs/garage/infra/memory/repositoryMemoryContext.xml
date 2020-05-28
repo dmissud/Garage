@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- ===== Déclaration des Repository en mémoire pour les tests ===== -->
+    <bean id="garageRepository" class="org.dbs.garage.infra.memory.RepositoryOfGarageMemoryImpl"/>
+    <bean id="locationRepository" class="org.dbs.garage.infra.memory.RepositoryOfLocationMemoryImpl"/>
+
+</beans>

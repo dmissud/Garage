@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- ===== Déclaration des Services ===== -->
+    <bean id="manageGarageStock" class="org.dbs.garage.usage.service.ManageGarageStockImpl">
+        <property name="repositoryOfGarage" ref="garageRepository"/>
+        <property name="repositoryOfLocation" ref="locationRepository"/>
+    </bean>
+    <bean id="consultGarageStock" class="org.dbs.garage.usage.service.ConsultGarageStockImpl">
+        <property name="repositoryOfGarage" ref="garageRepository"/>
+    </bean>
+    <bean id="consultLocationStock" class="org.dbs.garage.usage.service.ConsultLocationStockImpl">
+        <property name="repositoryOfLocation" ref="locationRepository"/>
+    </bean>
+
+    <!-- ===== ServiceFactory ===== -->
+    <bean id="serviceFactory" class="org.dbs.garage.usage.service.ServiceFactory">
+        <property name="consultGarageStock" ref="consultGarageStock"/>
+        <property name="consultLocationStock" ref="consultLocationStock"/>
+        <property name="enrichGarageStock" ref="manageGarageStock"/>
+    </bean>
+
+</beans>

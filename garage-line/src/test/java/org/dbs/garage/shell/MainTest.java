@@ -99,18 +99,18 @@ class MainTest {
     @BeforeEach
     private void linkComponentOfApplication() {
         ApplicationContext vApplicationContext
-                = new ClassPathXmlApplicationContext("classpath:/applicationContext.xml");
+                = new ClassPathXmlApplicationContext("classpath:/bootstrapTestContext.xml");
 
         RepositoryOfGarageMemoryImpl repositoryOfGarageMemory  =
-                vApplicationContext.getBean("garageRepositoryTest", RepositoryOfGarageMemoryImpl.class);
+                vApplicationContext.getBean("garageRepository", RepositoryOfGarageMemoryImpl.class);
         repositoryOfGarageMemory.initialize();
 
         RepositoryOfLocationMemoryImpl repositoryOfLocationMemory  =
-                vApplicationContext.getBean("locationRepositoryTest", RepositoryOfLocationMemoryImpl.class);
+                vApplicationContext.getBean("locationRepository", RepositoryOfLocationMemoryImpl.class);
         repositoryOfLocationMemory.initialize();
 
         ServiceFactory vServiceFactory
-                = vApplicationContext.getBean("serviceFactoryTest", ServiceFactory.class);
+                = vApplicationContext.getBean("serviceFactory", ServiceFactory.class);
         consultGarageStock = vServiceFactory.getConsultGarageStock();
         enrichGarageStock = vServiceFactory.getEnrichGarageStock();
         consultLocationStock = vServiceFactory.getConsultLocationStock();
