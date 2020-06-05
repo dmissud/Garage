@@ -56,11 +56,11 @@
     <!-- Modules -->
     <!-- =============================================================== -->
     <modules>
+        <module>garage-technical</module>
         <module>garage-business</module>
         <module>garage-line</module>
         <module>garage-memory</module>
         <module>garage-xml</module>
-        <module>garage-technical</module>
     </modules>
 
     <!-- =============================================================== -->
